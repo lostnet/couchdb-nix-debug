@@ -1,0 +1,30 @@
+All done! ✨ 🍰 ✨
+37 files would be left unchanged.
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+[error] 2020-09-17T16:15:43.673728Z nonode@nohost <0.596.0> -------- Could not open file not a real file: no such file or directory
+[notice] 2020-09-17T16:15:46.538713Z nonode@nohost <0.727.0> -------- config: [couchdb] max_pread_size set to 50000 for reason nil
+[notice] 2020-09-17T16:15:46.589992Z nonode@nohost <0.727.0> -------- config: [couchdb] max_pread_size deleted for reason nil
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+out of memory
+[notice] 2020-09-17T16:23:13.820841Z nonode@nohost <0.411.0> -------- config: [log] writer set to couch_log_writer_ets for reason nil
+erl_child_setup: failed with error 32 on line 253
+Application asn1 was left running!
+Application b64url was left running!
+Application compiler was left running!
+Application khash was left running!
+Application folsom was left running!
+Application couch_stats was left running!
+Application hyper was left running!
+Application ioq was left running!
+Application public_key was left running!
+Application syntax_tools was left running!
+Application xmerl was left running!
+Application mochiweb was left running!
+Application sasl was left running!
+Application rexi was left running!
+Application dreyfus was left running!
+make[1]: *** [Makefile:169: eunit] Interrupt
+make: *** [Makefile:150: check] Interrupt

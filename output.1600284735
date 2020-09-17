@@ -1,0 +1,1343 @@
+==> config (compile)
+==> b64url (compile)
+==> ets_lru (compile)
+==> khash (compile)
+==> snappy (compile)
+==> bear (compile)
+==> meck (compile)
+==> folsom (compile)
+==> hyper (compile)
+==> ibrowse (compile)
+==> jiffy (compile)
+==> mochiweb (compile)
+==> recon (compile)
+==> proper (compile)
+==> couch_epi (compile)
+==> couch_log (compile)
+==> chttpd (compile)
+==> couch (compile)
+==> couch_event (compile)
+==> mem3 (compile)
+==> couch_index (compile)
+==> couch_mrview (compile)
+==> couch_replicator (compile)
+==> couch_plugins (compile)
+==> couch_pse_tests (compile)
+==> couch_stats (compile)
+==> couch_peruser (compile)
+==> couch_tests (compile)
+==> ddoc_cache (compile)
+==> dreyfus (compile)
+==> fabric (compile)
+==> global_changes (compile)
+==> ioq (compile)
+==> jwtf (compile)
+==> ken (compile)
+==> mango (compile)
+==> rexi (compile)
+==> setup (compile)
+==> smoosh (compile)
+==> rel (compile)
+==> apache-couchdb-3.1.0 (compile)
+make[1]: Entering directory '/home/eviltwin/apache-couchdb-3.1.0'
+==> config (compile)
+==> b64url (compile)
+==> ets_lru (compile)
+==> khash (compile)
+==> snappy (compile)
+==> bear (compile)
+==> meck (compile)
+==> folsom (compile)
+==> hyper (compile)
+==> ibrowse (compile)
+==> jiffy (compile)
+==> mochiweb (compile)
+==> recon (compile)
+==> proper (compile)
+==> couch_epi (compile)
+==> couch_log (compile)
+==> chttpd (compile)
+==> couch (compile)
+==> couch_event (compile)
+==> mem3 (compile)
+==> couch_index (compile)
+==> couch_mrview (compile)
+==> couch_replicator (compile)
+==> couch_plugins (compile)
+==> couch_pse_tests (compile)
+==> couch_stats (compile)
+==> couch_peruser (compile)
+==> couch_tests (compile)
+==> ddoc_cache (compile)
+==> dreyfus (compile)
+==> fabric (compile)
+==> global_changes (compile)
+==> ioq (compile)
+==> jwtf (compile)
+==> ken (compile)
+==> mango (compile)
+==> rexi (compile)
+==> setup (compile)
+==> smoosh (compile)
+==> rel (compile)
+==> apache-couchdb-3.1.0 (compile)
+==> apache-couchdb-3.1.0 (setup_eunit)
+==> b64url (eunit)
+======================== EUnit ========================
+module 'b64url'
+  module 'b64url_tests'
+    b64url_tests: table_test...ok
+    b64url_tests: encode_binary_test...[1.296 s] ok
+    b64url_tests: encode_iolist_test...[1.277 s] ok
+    b64url_tests: decode_binary_test...[1.250 s] ok
+    b64url_tests: decode_iolist_test...[2.312 s] ok
+    b64url_tests: decode_binary_error_test...[1.237 s] ok
+    b64url_tests: decode_bad_length_test...[0.025 s] ok
+    [done in 7.419 s]
+  [done in 7.419 s]
+=======================================================
+  All 7 tests passed.
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> chttpd (eunit)
+======================== EUnit ========================
+module 'chttpd_rewrite'
+module 'chttpd_httpd_handlers'
+module 'chttpd'
+  chttpd:1215: check_url_encoding_pass_test_...ok
+  chttpd:1216: check_url_encoding_pass_test_...ok
+  chttpd:1217: check_url_encoding_pass_test_...ok
+  chttpd:1218: check_url_encoding_pass_test_...ok
+  chttpd:1219: check_url_encoding_pass_test_...ok
+  chttpd:1220: check_url_encoding_pass_test_...ok
+  chttpd:1221: check_url_encoding_pass_test_...ok
+  chttpd:1222: check_url_encoding_pass_test_...ok
+  chttpd:1223: check_url_encoding_pass_test_...ok
+  chttpd:1224: check_url_encoding_pass_test_...ok
+  chttpd:1225: check_url_encoding_pass_test_...ok
+  chttpd:1226: check_url_encoding_pass_test_...ok
+  chttpd:1227: check_url_encoding_pass_test_...ok
+  chttpd:1228: check_url_encoding_pass_test_...ok
+  chttpd:1233: check_url_encoding_fail_test_...ok
+  chttpd:1235: check_url_encoding_fail_test_...ok
+  chttpd:1237: check_url_encoding_fail_test_...ok
+  chttpd:1239: check_url_encoding_fail_test_...ok
+  chttpd:1241: check_url_encoding_fail_test_...ok
+  chttpd:1243: check_url_encoding_fail_test_...ok
+  chttpd:1245: check_url_encoding_fail_test_...ok
+  chttpd:1247: check_url_encoding_fail_test_...ok
+  chttpd:1249: check_url_encoding_fail_test_...ok
+  chttpd:1251: check_url_encoding_fail_test_...ok
+  chttpd:1253: check_url_encoding_fail_test_...ok
+  chttpd:1255: check_url_encoding_fail_test_...ok
+  chttpd:1257: check_url_encoding_fail_test_...ok
+  chttpd:1259: check_url_encoding_fail_test_...ok
+  chttpd: log_format_test...[0.468 s] ok
+  chttpd: handle_req_after_auth_test...[3.431 s] ok
+  [done in 3.989 s]
+module 'chttpd_db_bulk_get_test'
+  /db/_bulk_get tests
+    chttpd_db_bulk_get_test:72: should_require_docs_field...[0.001 s] ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (rev)...[0.001 s] ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (open_revs)...ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (atts_since)...ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (w)...ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (new_edits)...ok
+    chttpd_db_bulk_get_test:89: should_return_empty_results_on_no_docs...ok
+    chttpd_db_bulk_get_test:115: should_get_doc_with_all_revs...ok
+    chttpd_db_bulk_get_test:133: should_validate_doc_with_bad_id...ok
+    chttpd_db_bulk_get_test:156: should_validate_doc_with_bad_rev...ok
+    chttpd_db_bulk_get_test:180: should_validate_missing_doc...ok
+    chttpd_db_bulk_get_test:204: should_validate_bad_atts_since...ok
+    chttpd_db_bulk_get_test:219: should_include_attachments_when_atts_since_specified...[0.009 s] ok
+    [done in 0.605 s]
+  [done in 11.064 s]
+module 'chttpd_misc'
+module 'chttpd_plugin'
+  module 'chttpd_plugin_tests'
+    callback tests
+      chttpd_plugin_tests: callback_test_...[0.013 s] ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      [done in 0.058 s]
+    [done in 0.307 s]
+  [done in 0.307 s]
+module 'chttpd_open_revs_error_test'
+  open revs error tests
+    chttpd_open_revs_error_test:78: should_return_503_error_for_open_revs_get...ok
+    chttpd_open_revs_error_test:104: should_return_503_error_for_open_revs_post_form...ok
+    chttpd_open_revs_error_test:105: should_return_503_error_for_open_revs_post_form...ok
+    [done in 2.278 s]
+  [done in 5.964 s]
+module 'chttpd_prefer_header_test'
+  chttpd_prefer_header_test: default_no_exclude_header_test...ok
+  chttpd_prefer_header_test: unsupported_exclude_header_test...ok
+  chttpd_prefer_header_test: empty_header_test...ok
+  Test Prefer headers
+    chttpd_prefer_header_test:115: minimal_options...ok
+    chttpd_prefer_header_test:121: minimal_options_check_header_case...ok
+    chttpd_prefer_header_test:127: minimal_options_check_header_value_case...ok
+    [done in 0.012 s]
+  [done in 0.419 s]
+module 'chttpd_sup'
+module 'chttpd_dbs_info_test'
+  chttpd dbs info tests
+    chttpd_dbs_info_test:73: should_return_error_for_get_db_info...[0.008 s] ok
+    chttpd_dbs_info_test:86: should_return_dbs_info_for_single_db...[0.060 s] ok
+    chttpd_dbs_info_test:102: should_return_dbs_info_for_multiple_dbs...[0.012 s] ok
+    chttpd_dbs_info_test:123: should_return_error_for_exceeded_keys...[0.027 s] ok
+    chttpd_dbs_info_test:139: should_return_error_for_missing_keys...[0.008 s] ok
+    chttpd_dbs_info_test:153: should_return_dbs_info_for_dbs_with_mixed_state...[0.011 s] ok
+    [done in 5.549 s]
+  [done in 6.324 s]
+module 'chttpd_test_util'
+module 'chttpd_auth'
+  module 'chttpd_auth_tests'
+    _up
+      chttpd_auth_tests:60: should_handle_require_valid_user_except_up_on_up_route...[0.006 s] ok
+      chttpd_auth_tests:99: should_handle_require_valid_user_except_up_on_non_up_routes...[0.008 s] ok
+      [done in 0.021 s]
+    [done in 0.850 s]
+  [done in 0.850 s]
+module 'chttpd_epi'
+module 'chttpd_welcome_test'
+  chttpd welcome endpoint tests
+    chttpd_welcome_test:74: should_have_version...[0.039 s] ok
+    chttpd_welcome_test:91: should_have_features...[0.017 s] ok
+    chttpd_welcome_test:56: should_have_uuid...[0.009 s] ok
+    [done in 0.081 s]
+  [done in 0.898 s]
+module 'chttpd_handlers'
+  chttpd_handlers: select_override_test...ok
+  chttpd_handlers: select_default_override_test...ok
+  module 'chttpd_handlers_tests'
+    _replicate
+      chttpd_handlers_tests:48: should_escape_dbname_on_replicate...[1.340 s] ok
+      [done in 1.343 s]
+    [done in 2.162 s]
+  [done in 2.168 s]
+module 'chttpd_auth_cache'
+module 'chttpd_external'
+module 'chttpd_view_test'
+  chttpd view tests
+    chttpd_view_test:75: should_succeed_on_view_with_queries_keys...[1.414 s] ok
+    chttpd_view_test:91: should_succeed_on_view_with_queries_limit_skip...[0.401 s] ok
+    chttpd_view_test:108: should_succeed_on_view_with_multiple_queries...[0.580 s] ok
+    [done in 2.738 s]
+  [done in 3.574 s]
+module 'chttpd_cors_test'
+  CORS disabled tests
+    Empty user
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      [done in 0.013 s]
+    [done in 0.013 s]
+  Minimal CORS enabled, no Origins
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:293: test_incorrect_origin_simple_request_...ok
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:305: test_incorrect_origin_preflight_request_...ok
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    [done in 0.015 s]
+  Simple CORS config
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:375: test_preflight_request_...ok
+    chttpd_cors_test:377: test_preflight_request_...ok
+    chttpd_cors_test:318: test_bad_headers_preflight_request_...ok
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:333: test_good_headers_preflight_request_...ok
+    chttpd_cors_test:335: test_good_headers_preflight_request_...ok
+    chttpd_cors_test:337: test_good_headers_preflight_request_...ok
+    chttpd_cors_test:432: test_db_request_...ok
+    chttpd_cors_test:434: test_db_request_...ok
+    chttpd_cors_test:461: test_db_preflight_request_...[0.001 s] ok
+    chttpd_cors_test:463: test_db_preflight_request_...ok
+    chttpd_cors_test:477: test_db_host_origin_request_...ok
+    chttpd_cors_test:479: test_db_host_origin_request_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:531: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    chttpd_cors_test:533: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    [done in 0.060 s]
+  Simple CORS config with custom allow_methods/allow_headers/exposed_headers
+    chttpd_cors_test:356: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:358: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:360: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:362: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:446: test_db_request_with_custom_config_...ok
+    chttpd_cors_test:448: test_db_request_with_custom_config_...ok
+    [done in 0.019 s]
+  Multiple options CORS config
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:375: test_preflight_request_...ok
+    chttpd_cors_test:377: test_preflight_request_...ok
+    chttpd_cors_test:432: test_db_request_...ok
+    chttpd_cors_test:434: test_db_request_...ok
+    chttpd_cors_test:461: test_db_preflight_request_...ok
+    chttpd_cors_test:463: test_db_preflight_request_...ok
+    chttpd_cors_test:477: test_db_host_origin_request_...ok
+    chttpd_cors_test:479: test_db_host_origin_request_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    [done in 0.037 s]
+  Allow credentials disabled
+    chttpd_cors_test:544: test_db_request_credentials_header_off_...ok
+    chttpd_cors_test:546: test_db_request_credentials_header_off_...ok
+    [done in 0.007 s]
+  Allow credentials enabled
+    chttpd_cors_test:557: test_db_request_credentials_header_on_...ok
+    chttpd_cors_test:559: test_db_request_credentials_header_on_...ok
+    [done in 0.006 s]
+  Wildcard CORS config
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:375: test_preflight_request_...ok
+    chttpd_cors_test:377: test_preflight_request_...ok
+    chttpd_cors_test:399: test_preflight_request_no_allow_credentials_...ok
+    chttpd_cors_test:401: test_preflight_request_no_allow_credentials_...ok
+    chttpd_cors_test:403: test_preflight_request_no_allow_credentials_...ok
+    chttpd_cors_test:417: test_preflight_request_empty_request_headers_...ok
+    chttpd_cors_test:419: test_preflight_request_empty_request_headers_...ok
+    chttpd_cors_test:421: test_preflight_request_empty_request_headers_...ok
+    chttpd_cors_test:432: test_db_request_...ok
+    chttpd_cors_test:434: test_db_request_...ok
+    chttpd_cors_test:461: test_db_preflight_request_...ok
+    chttpd_cors_test:463: test_db_preflight_request_...ok
+    chttpd_cors_test:477: test_db_host_origin_request_...ok
+    chttpd_cors_test:479: test_db_host_origin_request_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:531: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    chttpd_cors_test:533: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    [done in 0.062 s]
+  [done in 0.219 s]
+module 'chttpd_view'
+  chttpd_view:142: t_check_include_docs_throw_validation_error...[0.003 s] ok
+  chttpd_view:152: t_check_user_can_override_individual_query_type...[0.001 s] ok
+  [done in 0.013 s]
+module 'chttpd_auth_request'
+module 'chttpd_db_bulk_get_multipart_test'
+  /db/_bulk_get tests
+    chttpd_db_bulk_get_multipart_test:82: should_require_docs_field...ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (rev)...[0.002 s] ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (open_revs)...ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (atts_since)...ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (w)...ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (new_edits)...ok
+    chttpd_db_bulk_get_multipart_test:101: should_return_empty_results_on_no_docs...ok
+    chttpd_db_bulk_get_multipart_test:116: should_get_doc_with_all_revs...ok
+    chttpd_db_bulk_get_multipart_test:129: should_validate_doc_with_bad_id...[0.001 s] ok
+    chttpd_db_bulk_get_multipart_test:146: should_validate_doc_with_bad_rev...ok
+    chttpd_db_bulk_get_multipart_test:164: should_validate_missing_doc...ok
+    chttpd_db_bulk_get_multipart_test:182: should_validate_bad_atts_since...ok
+    chttpd_db_bulk_get_multipart_test:197: should_include_attachments_when_atts_since_specified...ok
+    [done in 0.497 s]
+  [done in 11.503 s]
+module 'chttpd_db_test'
+  chttpd db tests
+    chttpd_db_test:94: should_return_ok_true_on_bulk_update...[0.086 s] ok
+    chttpd_db_test:109: should_return_ok_true_on_ensure_full_commit...[0.010 s] ok
+    chttpd_db_test:119: should_return_404_for_ensure_full_commit_on_no_db...[0.009 s] ok
+    chttpd_db_test:139: should_accept_live_as_an_alias_for_continuous...[0.072 s] ok
+    chttpd_db_test:462: should_return_headers_after_starting_continious...[0.012 s] ok
+    chttpd_db_test:151: should_return_404_for_delete_att_on_notadoc...[0.017 s] ok
+    chttpd_db_test:173: should_return_409_for_del_att_without_rev...[0.069 s] ok
+    chttpd_db_test:191: should_return_200_for_del_att_with_rev...[0.072 s] ok
+    chttpd_db_test:212: should_return_409_for_put_att_nonexistent_rev...[0.037 s] ok
+    chttpd_db_test:227: should_return_update_seq_when_set_on_all_docs...[0.104 s] ok
+    chttpd_db_test:241: should_not_return_update_seq_when_unset_on_all_docs...[0.106 s] ok
+    chttpd_db_test:255: should_return_correct_id_on_doc_copy...[0.124 s] ok
+    chttpd_db_test:286: should_return_400_for_bad_engine...[0.010 s] ok
+    chttpd_db_test:298: should_not_change_db_proper_after_rewriting_shardmap...[0.060 s] ok
+    chttpd_db_test:321: should_succeed_on_all_docs_with_queries_keys...[0.286 s] ok
+    chttpd_db_test:335: should_succeed_on_all_docs_with_queries_limit_skip...[0.483 s] ok
+    chttpd_db_test:350: should_succeed_on_all_docs_with_multiple_queries...[0.291 s] ok
+    chttpd_db_test:368: should_succeed_on_design_docs_with_queries_keys...[0.400 s] ok
+    chttpd_db_test:383: should_succeed_on_design_docs_with_queries_limit_skip...[0.383 s] ok
+    chttpd_db_test:398: should_succeed_on_design_docs_with_multiple_queries...[0.284 s] ok
+    chttpd_db_test:416: should_succeed_on_local_docs_with_queries_keys...[0.357 s] ok
+    chttpd_db_test:431: should_succeed_on_local_docs_with_queries_limit_skip...[0.267 s] ok
+    chttpd_db_test:445: should_succeed_on_local_docs_with_multiple_queries...[0.379 s] ok
+    [done in 9.581 s]
+  [done in 10.471 s]
+module 'chttpd_app'
+module 'chttpd_xframe_options'
+module 'chttpd_socket_buffer_size_test'
+  chttpd socket_buffer_size_test
+    chttpd_socket_buffer_size_test:69: default_buffer...[0.066 s] ok
+    chttpd_socket_buffer_size_test:53: small_recbuf...[0.006 s] ok
+    chttpd_socket_buffer_size_test:61: small_buffer...[0.007 s] ok
+    [done in 2.937 s]
+  [done in 2.937 s]
+module 'chttpd_stats'
+module 'chttpd_node'
+module 'chttpd_db'
+  chttpd_db: monitor_attachments_test_ (ignore stubs)...ok
+  chttpd_db:2134: t_should_allow_partitioned_db...[0.114 s] ok
+  chttpd_db:2142: t_should_throw_on_not_allowed_partitioned_db...[0.146 s] ok
+  chttpd_db:2150: t_returns_empty_array_for_partitioned_false...ok
+  chttpd_db:2156: t_returns_empty_array_for_no_partitioned_qs...ok
+  [done in 0.319 s]
+module 'chttpd_xframe_test'
+  chttpd_xframe_test: no_header_if_xframe_disabled_test...ok
+  chttpd_xframe_test: enabled_with_same_origin_test...ok
+  xframe host tests
+    chttpd_xframe_test:89: allow_with_wildcard_host...ok
+    chttpd_xframe_test:93: allow_with_specific_host...ok
+    chttpd_xframe_test:97: deny_with_different_host...ok
+    [done in 0.013 s]
+  [done in 0.421 s]
+module 'chttpd_cors'
+module 'chttpd_show'
+module 'chttpd_prefer_header'
+module 'chttpd_purge_tests'
+  chttpd db tests
+    chttpd_purge_tests:94: test_empty_purge_request...[0.031 s] ok
+    chttpd_purge_tests:111: test_ok_purge_request...[0.122 s] ok
+    chttpd_purge_tests:148: test_ok_purge_request_with_101_docid...[0.283 s] ok
+    chttpd_purge_tests:177: test_accepted_purge_request...[0.816 s] ok
+    chttpd_purge_tests:209: test_partial_purge_request...[0.088 s] ok
+    chttpd_purge_tests:245: test_mixed_purge_request...[0.248 s] ok
+    chttpd_purge_tests:293: test_overmany_ids_or_revs_purge_request...[0.147 s] ok
+    chttpd_purge_tests:343: test_exceed_limits_on_purge_infos...[0.133 s] ok
+    chttpd_purge_tests:386: should_error_set_purged_docs_limit_to0...[0.009 s] ok
+    chttpd_purge_tests:394: test_timeout_set_purged_infos_limit...[0.775 s] ok
+    [done in 4.117 s]
+  [done in 4.969 s]
+module 'chttpd_security_tests'
+  chttpd security tests
+    chttpd_security_tests:148: should_allow_admin_db_compaction...[0.008 s] ok
+    chttpd_security_tests:164: should_allow_valid_password_to_create_user...ok
+    chttpd_security_tests:174: should_disallow_invalid_password_to_create_user...ok
+    chttpd_security_tests:182: should_disallow_anonymous_db_compaction...ok
+    chttpd_security_tests:190: should_disallow_db_member_db_compaction...ok
+    chttpd_security_tests:193: should_allow_db_admin_db_compaction...[0.008 s] ok
+    chttpd_security_tests:203: should_allow_admin_view_compaction...[0.008 s] ok
+    chttpd_security_tests:218: should_disallow_anonymous_view_compaction...ok
+    chttpd_security_tests:221: should_allow_admin_db_view_cleanup...[0.007 s] ok
+    chttpd_security_tests:236: should_disallow_anonymous_db_view_cleanup...ok
+    chttpd_security_tests:239: should_allow_admin_purge...[0.006 s] ok
+    chttpd_security_tests:255: should_disallow_anonymous_purge...ok
+    chttpd_security_tests:263: should_disallow_db_member_purge...ok
+    chttpd_security_tests:266: should_allow_admin_purged_infos_limit...[0.006 s] ok
+    chttpd_security_tests:281: should_disallow_anonymous_purged_infos_limit...ok
+    chttpd_security_tests:289: should_disallow_db_member_purged_infos_limit...ok
+    [done in 8.372 s]
+  chttpd security object validate tests
+    chttpd_security_tests:301: should_return_ok_for_sec_obj_with_roles...ok
+    chttpd_security_tests:313: should_return_ok_for_sec_obj_with_names...ok
+    chttpd_security_tests:327: should_return_ok_for_sec_obj_with_roles_and_names...ok
+    chttpd_security_tests:342: should_return_error_for_sec_obj_with_incorrect_roles_and_names...ok
+    chttpd_security_tests:343: should_return_error_for_sec_obj_with_incorrect_roles_and_names...ok
+    chttpd_security_tests:361: should_return_error_for_sec_obj_with_incorrect_roles...ok
+    chttpd_security_tests:362: should_return_error_for_sec_obj_with_incorrect_roles...ok
+    chttpd_security_tests:380: should_return_error_for_sec_obj_with_incorrect_names...ok
+    chttpd_security_tests:381: should_return_error_for_sec_obj_with_incorrect_names...ok
+    chttpd_security_tests:401: should_return_error_for_sec_obj_in_user_db...ok
+    chttpd_security_tests:402: should_return_error_for_sec_obj_in_user_db...ok
+    [done in 3.201 s]
+  [done in 13.248 s]
+module 'chttpd_db_doc_size_tests'
+  chttpd db max_document_size tests
+    chttpd_db_doc_size_tests:84: post_single_doc...ok
+    chttpd_db_doc_size_tests:92: put_single_doc...ok
+    chttpd_db_doc_size_tests:101: bulk_doc...ok
+    chttpd_db_doc_size_tests:127: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:128: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:129: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:130: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:152: put_multi_part_related...ok
+    chttpd_db_doc_size_tests:153: put_multi_part_related...ok
+    chttpd_db_doc_size_tests:177: post_multi_part_form...ok
+    chttpd_db_doc_size_tests:178: post_multi_part_form...ok
+    [done in 2.766 s]
+  [done in 3.602 s]
+module 'chttpd_db_attachment_size_tests'
+  chttpd max_attachment_size tests
+    chttpd_db_attachment_size_tests:67: put_inline...[0.136 s] ok
+    chttpd_db_attachment_size_tests:75: put_simple...[0.059 s] ok
+    chttpd_db_attachment_size_tests:89: put_simple_chunked...[0.092 s] ok
+    chttpd_db_attachment_size_tests:103: put_mp_related...[0.043 s] ok
+    [done in 1.068 s]
+  [done in 1.906 s]
+module 'chttpd_csp_tests'
+  Content Security Policy tests
+    chttpd_csp_tests:50: should_not_return_any_csp_headers_when_disabled...[0.006 s] ok
+    chttpd_csp_tests:58: should_apply_default_policy...[0.006 s] ok
+    chttpd_csp_tests:67: should_return_custom_policy...[0.007 s] ok
+    chttpd_csp_tests:76: should_only_enable_csp_when_true...[0.007 s] ok
+    [done in 0.045 s]
+  [done in 0.879 s]
+chttpd_error_info_tests: error_info_test (module 'chttpd_error_info_tests')...[0.001 s] ok
+module 'chttpd_session_tests'
+  Session tests
+    chttpd_session_tests:46: session_test_ (session_authentication_db_absent)...[0.009 s] ok
+    chttpd_session_tests:47: session_test_ (session_authentication_db_present)...[0.009 s] ok
+    [done in 0.031 s]
+  [done in 0.853 s]
+=======================================================
+  All 264 tests passed.
+Cover analysis: /home/eviltwin/apache-couchdb-3.1.0/src/chttpd/.eunit/index.html
+
+Code Coverage:
+chttpd                            :  63%
+chttpd_app                        : 100%
+chttpd_auth                       :  78%
+chttpd_auth_cache                 :  46%
+chttpd_auth_request               :  47%
+chttpd_cors                       :  65%
+chttpd_cors_test                  :  98%
+chttpd_csp_tests                  : 100%
+chttpd_db                         :  52%
+chttpd_db_attachment_size_tests   : 100%
+chttpd_db_bulk_get_multipart_test :  97%
+chttpd_db_bulk_get_test           :  97%
+chttpd_db_doc_size_tests          :  97%
+chttpd_db_test                    :  99%
+chttpd_dbs_info_test              : 100%
+chttpd_epi                        : 100%
+chttpd_error_info_tests           : 100%
+chttpd_external                   :   0%
+chttpd_handlers                   : 100%
+chttpd_httpd_handlers             :  42%
+chttpd_misc                       :  31%
+chttpd_node                       :   0%
+chttpd_open_revs_error_test       : 100%
+chttpd_plugin                     : 100%
+chttpd_prefer_header              : 100%
+chttpd_prefer_header_test         : 100%
+chttpd_purge_tests                : 100%
+chttpd_rewrite                    :   0%
+chttpd_security_tests             : 100%
+chttpd_session_tests              : 100%
+chttpd_show                       :   0%
+chttpd_socket_buffer_size_test    :  97%
+chttpd_stats                      :  66%
+chttpd_sup                        :  47%
+chttpd_test_util                  : 100%
+chttpd_view                       :  64%
+chttpd_view_test                  : 100%
+chttpd_welcome_test               : 100%
+chttpd_xframe_options             :  82%
+chttpd_xframe_test                : 100%
+
+Total                             : 65%
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> config (eunit)
+======================== EUnit ========================
+module 'config_listener'
+module 'config_listener_mon'
+module 'config_writer'
+module 'config_util'
+module 'config_notifier'
+module 'config_sup'
+module 'config'
+  config: to_integer_test...ok
+  config: to_float_test...ok
+  config: validation_test...[0.002 s] ok
+  module 'config_tests'
+    Config get tests
+      config_tests: config_get_test_...[0.001 s] ok
+      config_tests: config_get_test_...ok
+      config_tests: config_get_test_...ok
+      config_tests: config_get_test_...ok
+      config_tests: config_get_test_...ok
+      config_tests: config_get_test_...ok
+      config_tests: config_get_test_...ok
+      [done in 1.497 s]
+    Config set tests
+      config_tests: config_set_test_...ok
+      config_tests: config_set_test_...[0.001 s] ok
+      config_tests: config_set_test_...ok
+      [done in 0.597 s]
+    Config deletion tests
+      config_tests: config_del_test_...[0.001 s] ok
+      config_tests: config_del_test_...ok
+      [done in 0.404 s]
+    Config features tests
+      config_tests: config_features_test_ (enable)...[0.001 s] ok
+      config_tests: config_features_test_ (disable)...ok
+      config_tests: config_features_test_ (restart config)...[0.071 s] ok
+      [done in 0.643 s]
+    Configs overide tests
+      config_tests:419: should_ensure_in_defaults...ok
+      config_tests:427: should_override_options...ok
+      config_tests:452: should_create_new_sections_on_override...ok
+      config_tests:459: should_win_last_in_chain...ok
+      config_tests:434: should_read_default_d...ok
+      config_tests:440: should_read_local_d...ok
+      config_tests:446: should_read_default_and_local_d...ok
+      [done in 1.284 s]
+    Config persistent changes
+      config_tests:465: should_write_changes...[0.006 s] ok
+      config_tests:475: should_ensure_default_wasnt_modified...ok
+      config_tests:482: should_ensure_written_to_last_config_in_chain...ok
+      [done in 0.506 s]
+    Test config with no files
+      config_tests: config_no_files_test_...ok
+      config_tests: config_no_files_test_...ok
+      config_tests: config_no_files_test_...ok
+      [done in 0.425 s]
+    Test config_listener behaviour
+      config_tests:507: should_handle_value_change...[0.001 s] ok
+      config_tests:514: should_pass_correct_state_to_handle_config_change...[0.001 s] ok
+      config_tests:523: should_pass_correct_state_to_handle_config_terminate...[0.002 s] ok
+      config_tests:534: should_pass_subscriber_pid_to_handle_config_terminate...[0.001 s] ok
+      config_tests:541: should_not_call_handle_config_after_related_process_death...[0.253 s] ok
+      config_tests:554: should_remove_handler_when_requested...ok
+      config_tests:563: should_remove_handler_when_pid_exits...ok
+      config_tests:592: should_stop_monitor_on_error...[0.001 s] ok
+      [done in 1.824 s]
+    Test config_notifier behaviour
+      config_tests:618: should_notify (all)...[0.001 s] ok
+      config_tests:618: should_notify (["section_foo"])...[0.001 s] ok
+      config_tests:618: should_notify ([{"section_foo","key_bar"}])...ok
+      config_tests:631: should_not_notify (["section_foo"])...[4.001 s] ok
+      config_tests:625: should_not_notify ([{"section_foo","key_bar"}])...[4.001 s] ok
+      config_tests:638: should_unsubscribe_when_subscriber_gone...ok
+      config_tests:662: should_not_add_duplicate...ok
+      config_tests:713: should_notify_on_config_reload (all)...[0.051 s] ok
+      config_tests:724: should_notify_on_config_reload_flush (all)...[0.047 s] ok
+      [done in 9.818 s]
+    Test key with regex can be compiled and written to file
+      config_tests: config_key_has_regex_test_...[0.004 s] ok
+      [done in 0.007 s]
+    Test config file access right
+      config_tests: config_access_right_test_...[0.004 s] ok
+      config_tests: config_access_right_test_...[0.004 s] ok
+      config_tests: config_access_right_test_...[0.097 s] ok
+      config_tests: config_access_right_test_...[0.112 s] ok
+      [done in 0.975 s]
+    [done in 18.169 s]
+  [done in 18.180 s]
+module 'config_app'
+=======================================================
+  All 53 tests passed.
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> couch (eunit)
+======================== EUnit ========================
+module 'couch_hotp'
+  couch_hotp_tests: hotp_test (module 'couch_hotp_tests')...[0.001 s] ok
+  [done in 0.004 s]
+module 'couch_btree'
+  module 'couch_btree_tests'
+    couch_btree_tests:81: btree_open_test_ (Ensure that created btree is really a btree record)...ok
+    BTree with sorted keys
+      couch_btree_tests:180: should_set_fd_correctly...ok
+      couch_btree_tests:183: should_set_root_correctly...ok
+      couch_btree_tests:186: should_create_zero_sized_btree...ok
+      couch_btree_tests:191: should_set_reduce_option...ok
+      couch_btree_tests:195: should_fold_over_empty_btree...ok
+      couch_btree_tests:208: should_return_complete_btree_on_adding_all_keys...[0.948 s] ok
+      couch_btree_tests:211: should_have_non_zero_size...ok
+      couch_btree_tests:214: should_have_lesser_size_than_file...ok
+      couch_btree_tests:217: should_keep_root_pointer_to_kp_node...[0.001 s] ok
+      Should remove all the keys
+        couch_btree_tests:447: should_produce_valid_btree...ok
+        couch_btree_tests:450: should_be_empty...ok
+        [done in 0.006 s]
+      Should continuously add key-values to btree
+        couch_btree_tests:447: should_produce_valid_btree...[0.899 s] ok
+        couch_btree_tests:453: should_not_be_empty...ok
+        [done in 0.905 s]
+      Should continuously remove keys from btree
+        couch_btree_tests:447: should_produce_valid_btree...ok
+        couch_btree_tests:450: should_be_empty...ok
+        [done in 0.007 s]
+      couch_btree_tests:447: should_produce_valid_btree...[0.865 s] ok
+      couch_btree_tests:281: should_add_every_odd_key_remove_every_even...[2.783 s] ok
+      couch_btree_tests:293: should_add_every_even_key_remove_every_old...[2.879 s] ok
+      [done in 12.354 s]
+    BTree with backward sorted keys
+      couch_btree_tests:180: should_set_fd_correctly...ok
+      couch_btree_tests:183: should_set_root_correctly...ok
+      couch_btree_tests:186: should_create_zero_sized_btree...ok
+      couch_btree_tests:191: should_set_reduce_option...ok
+      couch_btree_tests:195: should_fold_over_empty_btree...ok
+      couch_btree_tests:208: should_return_complete_btree_on_adding_all_keys...[0.965 s] ok
+      couch_btree_tests:211: should_have_non_zero_size...ok
+      couch_btree_tests:214: should_have_lesser_size_than_file...ok
+      couch_btree_tests:217: should_keep_root_pointer_to_kp_node...[0.001 s] ok
+      Should remove all the keys
+        couch_btree_tests:447: should_produce_valid_btree...ok
+        couch_btree_tests:450: should_be_empty...ok
+        [done in 0.006 s]
+      Should continuously add key-values to btree
+        couch_btree_tests:447: should_produce_valid_btree...[0.898 s] ok
+        couch_btree_tests:453: should_not_be_empty...ok
+        [done in 0.904 s]
+      Should continuously remove keys from btree
+        couch_btree_tests:447: should_produce_valid_btree...ok
+        couch_btree_tests:450: should_be_empty...ok
+        [done in 0.006 s]
+      couch_btree_tests:447: should_produce_valid_btree...[0.865 s] ok
+      couch_btree_tests:281: should_add_every_odd_key_remove_every_even...[2.845 s] ok
+      couch_btree_tests:293: should_add_every_even_key_remove_every_old...[2.879 s] ok
+      [done in 12.574 s]
+    BTree with shuffled keys
+      couch_btree_tests:180: should_set_fd_correctly...ok
+      couch_btree_tests:183: should_set_root_correctly...ok
+      couch_btree_tests:186: should_create_zero_sized_btree...ok
+      couch_btree_tests:191: should_set_reduce_option...ok
+      couch_btree_tests:195: should_fold_over_empty_btree...ok
+      couch_btree_tests:208: should_return_complete_btree_on_adding_all_keys...[1.048 s] ok
+      couch_btree_tests:211: should_have_non_zero_size...ok
+      couch_btree_tests:214: should_have_lesser_size_than_file...ok
+      couch_btree_tests:217: should_keep_root_pointer_to_kp_node...[0.001 s] ok
+      Should remove all the keys
+        couch_btree_tests:447: should_produce_valid_btree...ok
+        couch_btree_tests:450: should_be_empty...ok
+        [done in 0.006 s]
+      Should continuously add key-values to btree
+        couch_btree_tests:447: should_produce_valid_btree...[0.994 s] ok
+        couch_btree_tests:453: should_not_be_empty...ok
+        [done in 1.000 s]
+      Should continuously remove keys from btree
+        couch_btree_tests:447: should_produce_valid_btree...ok
+        couch_btree_tests:450: should_be_empty...ok
+        [done in 0.006 s]
+      couch_btree_tests:447: should_produce_valid_btree...[1.037 s] ok
+      couch_btree_tests:281: should_add_every_odd_key_remove_every_even...[2.939 s] ok
+      couch_btree_tests:293: should_add_every_even_key_remove_every_old...[2.848 s] ok
+      [done in 13.046 s]
+    BTree reductions
+      Common tests
+        couch_btree_tests:298: should_reduce_without_specified_direction...[0.003 s] ok
+        couch_btree_tests:303: should_reduce_forward...[0.003 s] ok
+        couch_btree_tests:308: should_reduce_backward...[0.002 s] ok
+        [done in 0.059 s]
+      Range requests
+        Forward direction
+          couch_btree_tests:317: should_reduce_whole_range (include endkey)...[0.003 s] ok
+          couch_btree_tests:326: should_reduce_whole_range (exclude endkey)...[0.002 s] ok
+          couch_btree_tests:362: should_reduce_first_half (include endkey)...[0.003 s] ok
+          couch_btree_tests:370: should_reduce_first_half (exclude endkey)...[0.003 s] ok
+          couch_btree_tests:406: should_reduce_second_half (include endkey)...[0.002 s] ok
+          couch_btree_tests:415: should_reduce_second_half (exclude endkey)...[0.003 s] ok
+          [done in 0.073 s]
+        Backward direction
+          couch_btree_tests:339: should_reduce_whole_range (include endkey)...[0.002 s] ok
+          couch_btree_tests:348: should_reduce_whole_range (exclude endkey)...[0.002 s] ok
+          couch_btree_tests:383: should_reduce_first_half (include endkey)...[0.002 s] ok
+          couch_btree_tests:392: should_reduce_first_half (exclude endkey)...[0.002 s] ok
+          couch_btree_tests:428: should_reduce_second_half (include endkey)...[0.002 s] ok
+          couch_btree_tests:437: should_reduce_second_half (exclude endkey)...[0.002 s] ok
+          [done in 0.068 s]
+        [done in 0.141 s]
+      [done in 0.200 s]
+    [done in 44.445 s]
+  [done in 44.449 s]
+module 'couch_httpd_misc_handlers'
+module 'couch_flags_config'
+  module 'couch_flags_config_tests'
+    test couch_flags_config
+      couch_flags_config_tests: couch_flags_config_test_...[0.197 s] ok
+      couch_flags_config_tests:73: latest_overide_wins (["flag||*","flag||a*","flag||ab*","flag||abc*"] -> true)...ok
+      couch_flags_config_tests:73: latest_overide_wins (["flag||*","flag||a*","flag||ab*","flag||abc*"] -> false)...ok
+      couch_flags_config_tests: couch_flags_config_test_ (rules_are_sorted)...ok
+      [done in 0.209 s]
+    couch_flags_config_tests:106: parse_flags_term_test_ (empty binary)...ok
+    couch_flags_config_tests:108: parse_flags_term_test_ (single flag)...ok
+    couch_flags_config_tests:110: parse_flags_term_test_ (sorted)...ok
+    couch_flags_config_tests:112: parse_flags_term_test_ (whitespace)...ok
+    couch_flags_config_tests:114: parse_flags_term_test_ (error)...ok
+    couch_flags_config_tests:116: parse_flags_term_test_ (unknown_flag)...ok
+    [done in 0.322 s]
+  [done in 0.322 s]
+module 'couch_multidb_changes'
+  couch_multidb_changes:426: t_handle_call_change...[0.006 s] ok
+  couch_multidb_changes:436: t_handle_call_change_filter_design_docs...ok
+  couch_multidb_changes:447: t_handle_call_checkpoint_new...ok
+  couch_multidb_changes:457: t_handle_call_checkpoint_existing...ok
+  couch_multidb_changes:468: t_handle_info_created...[0.015 s] ok
+  couch_multidb_changes:478: t_handle_info_deleted...ok
+  couch_multidb_changes:487: t_handle_info_updated...ok
+  couch_multidb_changes:497: t_handle_info_other_event...ok
+  couch_multidb_changes:507: t_handle_info_created_other_db...ok
+  couch_multidb_changes:515: t_handle_info_scanner_exit_normal...ok
+  couch_multidb_changes:524: t_handle_info_scanner_crashed...ok
+  couch_multidb_changes:531: t_handle_info_event_server_exited...ok
+  couch_multidb_changes:538: t_handle_info_unknown_pid_exited...ok
+  couch_multidb_changes:549: t_handle_info_change_feed_exited...ok
+  couch_multidb_changes:568: t_handle_info_change_feed_exited_and_need_rescan...ok
+  couch_multidb_changes:587: t_spawn_changes_reader...ok
+  couch_multidb_changes:606: t_changes_reader_cb_change...ok
+  couch_multidb_changes:618: t_changes_reader_cb_stop...[0.017 s] ok
+  couch_multidb_changes:631: t_changes_reader_cb_other...ok
+  couch_multidb_changes:635: t_handle_call_resume_scan_no_chfeed_no_ets_entry...[0.001 s] ok
+  couch_multidb_changes:659: t_handle_call_resume_scan_chfeed_no_ets_entry...[0.001 s] ok
+  couch_multidb_changes:672: t_handle_call_resume_scan_chfeed_ets_entry...[0.001 s] ok
+  couch_multidb_changes:686: t_handle_call_resume_scan_no_chfeed_ets_entry...[0.001 s] ok
+  couch_multidb_changes:709: t_start_link...[0.001 s] ok
+  couch_multidb_changes:726: t_start_link_no_ddocs...ok
+  couch_multidb_changes:742: t_misc_gen_server_callbacks...ok
+  couch_multidb_changes: scan_dbs_test_...ok
+  couch_multidb_changes: scan_dbs_test_...ok
+  couch_multidb_changes: scan_dbs_test_...ok
+  couch_multidb_changes: scan_dbs_test_...ok
+  [done in 8.537 s]
+module 'couch_users_db'
+  [done in 0.001 s]
+module 'couch_bt_engine'
+  module 'couch_bt_engine_tests'
+    cpse_test_open_close_delete
+      cpse_gather: make_test_fun (cpse_open_non_existent)...[0.032 s] ok
+      cpse_gather: make_test_fun (cpse_open_create)...[0.030 s] ok
+      cpse_gather: make_test_fun (cpse_open_when_exists)...[0.124 s] ok
+      cpse_gather: make_test_fun (cpse_terminate)...[0.029 s] ok
+      cpse_gather: make_test_fun (cpse_rapid_recycle)...[0.346 s] ok
+      cpse_gather: make_test_fun (cpse_delete)...[2.428 s] ok
+      [done in 3.027 s]
+    cpse_test_get_set_props
+      cpse_gather: make_test_fun (cpse_default_props)...[0.030 s] ok
+      cpse_gather: make_test_fun (cpse_admin_only_security)...[0.034 s] ok
+      cpse_gather: make_test_fun (cpse_set_security)...[0.056 s] ok
+      cpse_gather: make_test_fun (cpse_set_revs_limit)...[0.123 s] ok
+      [done in 0.269 s]
+    cpse_test_read_write_docs
+      cpse_gather: make_test_fun (cpse_read_docs_from_empty_db)...ok
+      cpse_gather: make_test_fun (cpse_read_empty_local_docs)...ok
+      cpse_gather: make_test_fun (cpse_write_one_doc)...[0.041 s] ok
+      cpse_gather: make_test_fun (cpse_write_two_docs)...[0.156 s] ok
+      cpse_gather: make_test_fun (cpse_write_three_doc_batch)...[0.036 s] ok
+      cpse_gather: make_test_fun (cpse_update_doc)...[0.061 s] ok
+      cpse_gather: make_test_fun (cpse_delete_doc)...[0.165 s] ok
+      cpse_gather: make_test_fun (cpse_write_local_doc)...[0.034 s] ok
+      cpse_gather: make_test_fun (cpse_write_mixed_batch)...[0.039 s] ok
+      cpse_gather: make_test_fun (cpse_update_local_doc)...[0.144 s] ok
+      cpse_gather: make_test_fun (cpse_delete_local_doc)...[0.143 s] ok
+      [done in 1.190 s]
+    cpse_test_attachments
+      cpse_gather: make_test_fun (cpse_write_attachment)...[0.054 s] ok
+      cpse_gather: make_test_fun (cpse_inactive_stream)...[0.019 s] ok
+      [done in 0.138 s]
+    cpse_test_fold_docs
+      cpse_gather: make_test_fun (cpse_fold_all)...[0.092 s] ok
+      cpse_gather: make_test_fun (cpse_fold_all_local)...[2.117 s] ok
+      cpse_gather: make_test_fun (cpse_fold_start_key)...[0.200 s] ok
+      cpse_gather: make_test_fun (cpse_fold_start_key_local)...[0.067 s] ok
+      cpse_gather: make_test_fun (cpse_fold_end_key)...[0.197 s] ok
+      cpse_gather: make_test_fun (cpse_fold_end_key_local)...[0.077 s] ok
+      cpse_gather: make_test_fun (cpse_fold_end_key_gt)...[0.099 s] ok
+      cpse_gather: make_test_fun (cpse_fold_end_key_gt_local)...[0.069 s] ok
+      cpse_gather: make_test_fun (cpse_fold_range)...[0.099 s] ok
+      cpse_gather: make_test_fun (cpse_fold_range_local)...[0.068 s] ok
+      cpse_gather: make_test_fun (cpse_fold_stop)...[0.179 s] ok
+      cpse_gather: make_test_fun (cpse_fold_stop_local)...[0.170 s] ok
+      cpse_gather: make_test_fun (cpse_fold_include_reductions)...[0.087 s] ok
+      [done in 3.606 s]
+    cpse_test_fold_changes
+      cpse_gather: make_test_fun (cpse_empty_changes)...ok
+      cpse_gather: make_test_fun (cpse_single_change)...[0.031 s] ok
+      cpse_gather: make_test_fun (cpse_two_changes)...[0.058 s] ok
+      cpse_gather: make_test_fun (cpse_two_changes_batch)...[0.116 s] ok
+      cpse_gather: make_test_fun (cpse_two_changes_batch_sorted)...[0.027 s] ok
+      cpse_gather: make_test_fun (cpse_update_one)...[0.055 s] ok
+      cpse_gather: make_test_fun (cpse_update_first_of_two)...[0.084 s] ok
+      cpse_gather: make_test_fun (cpse_update_second_of_two)...[0.089 s] ok
+      cpse_gather: make_test_fun (cpse_check_mutation_ordering)...[3.716 s] ok
+      [done in 4.561 s]
+    cpse_test_fold_purge_infos
+      cpse_gather: make_test_fun (cpse_empty_purged_docs)...ok
+      cpse_gather: make_test_fun (cpse_all_purged_docs)...[0.125 s] ok
+      cpse_gather: make_test_fun (cpse_start_seq)...[0.448 s] ok
+      cpse_gather: make_test_fun (cpse_id_rev_repeated)...[0.323 s] ok
+      [done in 1.025 s]
+    cpse_test_copy_purge_infos
+      cpse_gather: make_test_fun (cpse_copy_empty_purged_info)...ok
+      cpse_gather: make_test_fun (cpse_copy_purged_info)...[0.009 s] ok
+      [done in 0.586 s]
+    cpse_test_purge_docs
+      cpse_gather: make_test_fun (cpse_purge_simple)...[0.050 s] ok
+      cpse_gather: make_test_fun (cpse_purge_simple_info_check)...[0.032 s] ok
+      cpse_gather: make_test_fun (cpse_purge_empty_db)...[0.018 s] ok
+      cpse_gather: make_test_fun (cpse_purge_single_docid)...[0.033 s] ok
+      cpse_gather: make_test_fun (cpse_purge_multiple_docids)...[0.033 s] ok
+      cpse_gather: make_test_fun (cpse_purge_no_docids)...[0.027 s] ok
+      cpse_gather: make_test_fun (cpse_purge_rev_path)...[0.051 s] ok
+      cpse_gather: make_test_fun (cpse_purge_deep_revision_path)...[2.694 s] ok
+      cpse_gather: make_test_fun (cpse_purge_partial_revs)...[0.157 s] ok
+      cpse_gather: make_test_fun (cpse_purge_missing_docid)...[0.035 s] ok
+      cpse_gather: make_test_fun (cpse_purge_duplicate_docids)...[0.140 s] ok
+      cpse_gather: make_test_fun (cpse_purge_internal_revision)...[0.048 s] ok
+      cpse_gather: make_test_fun (cpse_purge_missing_revision)...[0.033 s] ok
+      cpse_gather: make_test_fun (cpse_purge_repeated_revisions)...[0.048 s] ok
+      cpse_gather: make_test_fun (cpse_purge_repeated_uuid)...[0.033 s] ok
+      [done in 5.329 s]
+    cpse_test_purge_replication
+      cpse_gather: make_test_fun (cpse_purge_http_replication)...[1.197 s] ok
+      cpse_gather: make_test_fun (cpse_purge_internal_repl_disabled)...[0.386 s] ok
+      cpse_gather: make_test_fun (cpse_purge_repl_simple_pull)...[0.162 s] ok
+      cpse_gather: make_test_fun (cpse_purge_repl_simple_push)...[0.375 s] ok
+      [done in 2.474 s]
+    cpse_test_purge_bad_checkpoints
+      cpse_gather: make_test_fun (cpse_bad_purge_seq)...[0.018 s] ok
+      cpse_gather: make_test_fun (cpse_verify_non_boolean)...[0.052 s] ok
+      [done in 0.209 s]
+    cpse_test_compaction
+      cpse_gather: make_test_fun (cpse_compact_empty)...[2.604 s] ok
+      cpse_gather: make_test_fun (cpse_compact_doc)...[0.158 s] ok
+      cpse_gather: make_test_fun (cpse_compact_local_doc)...[0.152 s] ok
+      cpse_gather: make_test_fun (cpse_compact_with_everything)...[4.827 s] ok
+      cpse_gather: make_test_fun (cpse_recompact_updates)...[4.079 s] ok
+      cpse_gather: make_test_fun (cpse_purge_during_compact)...[2.142 s] ok
+      cpse_gather: make_test_fun (cpse_multiple_purge_during_compact)...[2.187 s] ok
+      cpse_gather: make_test_fun (cpse_compact_purged_docs_limit)...[1.159 s] ok
+      [done in 17.582 s]
+    cpse_test_ref_counting
+      cpse_gather: make_test_fun (cpse_empty_monitors)...ok
+      cpse_gather: make_test_fun (cpse_incref_decref)...[0.001 s] ok
+      cpse_gather: make_test_fun (cpse_incref_decref_many)...[0.107 s] ok
+      [done in 0.208 s]
+    cpse_test_purge_seqs
+      cpse_gather: make_test_fun (cpse_increment_purge_seq_on_complete_purge)...[0.153 s] ok
+      cpse_gather: make_test_fun (cpse_increment_purge_multiple_times)...[0.048 s] ok
+      cpse_gather: make_test_fun (cpse_increment_purge_seq_on_partial_purge)...[0.049 s] ok
+      [done in 0.351 s]
+    [done in 51.107 s]
+  [done in 51.129 s]
+module 'couch_flags'
+  module 'couch_flags_tests'
+    test couch_flags
+      enabled_flags_tests
+        couch_flags_tests:90: enabled_flags_tests (flags_default_rule)...ok
+        couch_flags_tests:93: enabled_flags_tests (flags_wildcard_rule)...ok
+        couch_flags_tests:97: enabled_flags_tests (flags_exact_rule)...ok
+        couch_flags_tests:101: enabled_flags_tests (flags_blacklist_rule)...ok
+        [done in 0.012 s]
+      is_enabled_tests
+        couch_flags_tests:109: is_enabled (flags_default_rule [enabled])...ok
+        couch_flags_tests:111: is_enabled (flags_default_rule [disabled])...ok
+        couch_flags_tests:113: is_enabled (flags_default_rule [not_existent])...ok
+        couch_flags_tests:116: is_enabled (flags_wildcard_rule [enabled])...ok
+        couch_flags_tests:118: is_enabled (flags_wildcard_rule [not_existent])...ok
+        couch_flags_tests:121: is_enabled (flags_exact_rule [overide_disbled])...ok
+        couch_flags_tests:123: is_enabled (flags_exact_rule [not_existent])...ok
+        couch_flags_tests:126: is_enabled (flags_blacklist_rule [overide_enabled])...ok
+        couch_flags_tests:128: is_enabled (flags_blacklist_rule [not_existent])...ok
+        [done in 0.027 s]
+      [done in 0.039 s]
+    [done in 1.059 s]
+  [done in 1.059 s]
+module 'couch_work_queue'
+  module 'couch_work_queue_tests'
+    Single producer and consumer
+      Queue with 3 max items
+        couch_work_queue_tests:143: should_have_no_items_for_new_queue...[0.001 s] ok
+        couch_work_queue_tests:213: should_block_producer_on_full_queue_count...ok
+        couch_work_queue_tests:251: should_receive_first_queued_item...ok
+        couch_work_queue_tests:238: should_consume_multiple_items...ok
+        couch_work_queue_tests:261: should_consume_all...ok
+        couch_work_queue_tests:155: should_block_consumer_on_dequeue_from_empty_queue...ok
+        couch_work_queue_tests:186: should_consume_right_item...ok
+        couch_work_queue_tests:267: should_timeout_on_close_non_empty_queue...ok
+        couch_work_queue_tests:276: should_not_block_producer_for_non_empty_queue_after_close...ok
+        couch_work_queue_tests:298: should_be_closed...ok
+        [done in 0.544 s]
+      Queue with max size of 160 bytes
+        couch_work_queue_tests:146: should_have_zero_size_for_new_queue...ok
+        couch_work_queue_tests:226: should_block_producer_on_full_queue_size...ok
+        couch_work_queue_tests:198: should_increase_queue_size_on_produce...ok
+        couch_work_queue_tests:251: should_receive_first_queued_item...ok
+        couch_work_queue_tests:238: should_consume_multiple_items...ok
+        couch_work_queue_tests:261: should_consume_all...ok
+        couch_work_queue_tests:155: should_block_consumer_on_dequeue_from_empty_queue...ok
+        couch_work_queue_tests:186: should_consume_right_item...ok
+        couch_work_queue_tests:267: should_timeout_on_close_non_empty_queue...ok
+        couch_work_queue_tests:276: should_not_block_producer_for_non_empty_queue_after_close...ok
+        couch_work_queue_tests:298: should_be_closed...ok
+        [done in 0.547 s]
+      Queue with max size of 160 bytes and 3 max items
+        couch_work_queue_tests:143: should_have_no_items_for_new_queue...ok
+        couch_work_queue_tests:213: should_block_producer_on_full_queue_count...ok
+        couch_work_queue_tests:251: should_receive_first_queued_item...ok
+        couch_work_queue_tests:238: should_consume_multiple_items...ok
+        couch_work_queue_tests:261: should_consume_all...ok
+        couch_work_queue_tests:146: should_have_zero_size_for_new_queue...ok
+        couch_work_queue_tests:226: should_block_producer_on_full_queue_size...ok
+        couch_work_queue_tests:198: should_increase_queue_size_on_produce...ok
+        couch_work_queue_tests:251: should_receive_first_queued_item...ok
+        couch_work_queue_tests:238: should_consume_multiple_items...ok
+        couch_work_queue_tests:261: should_consume_all...ok
+        couch_work_queue_tests:155: should_block_consumer_on_dequeue_from_empty_queue...ok
+        couch_work_queue_tests:186: should_consume_right_item...ok
+        couch_work_queue_tests:267: should_timeout_on_close_non_empty_queue...ok
+        couch_work_queue_tests:276: should_not_block_producer_for_non_empty_queue_after_close...ok
+        couch_work_queue_tests:298: should_be_closed...ok
+        [done in 0.772 s]
+      [done in 1.863 s]
+    Single producer and multiple consumers
+      Queue with max size of 160 bytes and 3 max items
+        couch_work_queue_tests:151: should_block_consumer_on_dequeue_from_empty_queue...ok
+        couch_work_queue_tests:178: should_consume_right_item...ok
+        couch_work_queue_tests:267: should_timeout_on_close_non_empty_queue...ok
+        couch_work_queue_tests:276: should_not_block_producer_for_non_empty_queue_after_close...ok
+        couch_work_queue_tests:287: should_be_closed...ok
+        couch_work_queue_tests:146: should_have_zero_size_for_new_queue...ok
+        couch_work_queue_tests:143: should_have_no_items_for_new_queue...ok
+        couch_work_queue_tests:198: should_increase_queue_size_on_produce...ok
+        [done in 0.537 s]
+      [done in 0.537 s]
+    [done in 2.400 s]
+  [done in 2.400 s]
+module 'couch_changes'
+  module 'couch_changes_tests'
+    Changes feed
+      Filter _selector
+        couch_changes_tests:366: should_select_basic...[0.064 s] ok
+        couch_changes_tests:380: should_select_with_since...[0.002 s] ok
+        couch_changes_tests:395: should_select_when_no_result...[0.007 s] ok
+        couch_changes_tests:406: should_select_with_deleted_docs...[0.023 s] ok
+        couch_changes_tests:427: should_select_with_continuous...[0.366 s] ok
+        couch_changes_tests:467: should_stop_selector_when_db_deleted...[0.111 s] ok
+        couch_changes_tests:484: should_select_with_empty_fields...[0.022 s] ok
+        couch_changes_tests:500: should_select_with_fields...[0.007 s] ok
+        [done in 3.376 s]
+      Filter _doc_id
+        couch_changes_tests:177: should_filter_by_specific_doc_ids...[0.003 s] ok
+        couch_changes_tests:196: should_filter_by_specific_doc_ids_descending...[0.002 s] ok
+        couch_changes_tests:216: should_filter_by_specific_doc_ids_with_since...[0.001 s] ok
+        couch_changes_tests:234: should_filter_by_specific_doc_ids_no_result...[0.002 s] ok
+        couch_changes_tests:249: should_handle_deleted_docs...[0.020 s] ok
+        [done in 1.738 s]
+      Filter _design
+        couch_changes_tests:517: should_emit_only_design_documents...[0.034 s] ok
+        [done in 0.038 s]
+      Continuous Feed
+        couch_changes_tests:276: should_filter_continuous_feed_by_specific_doc_ids...[0.661 s] ok
+        couch_changes_tests:347: should_end_changes_when_db_deleted...[0.106 s] ok
+        [done in 1.612 s]
+      Filter by filters
+        couch_changes_tests:616: should_filter_by_doc_attribute...[0.465 s] ok
+        couch_changes_tests:641: should_filter_by_user_ctx...[0.322 s] ok
+        [done in 1.334 s]
+      Filter _view
+        couch_changes_tests:670: should_filter_by_view...[0.238 s] ok
+        couch_changes_tests:701: should_filter_by_erlang_view...[0.066 s] ok
+        [done in 4.909 s]
+      [done in 13.209 s]
+    [done in 13.994 s]
+  [done in 13.994 s]
+module 'couch_event_sup'
+module 'couch_httpd_external'
+module 'couch_rand'
+module 'couch_httpd_handlers'
+module 'couch_app'
+module 'couch_db_engine'
+module 'couch_bt_engine_header'
+  couch_bt_engine_header: upgrade_v5_to_v8_test...ok
+  couch_bt_engine_header: upgrade_uuid_test...ok
+  couch_bt_engine_header: upgrade_epochs_test...ok
+  couch_bt_engine_header: get_uuid_from_old_header_test...ok
+  couch_bt_engine_header: get_epochs_from_old_header_test...ok
+  [done in 0.015 s]
+module 'couch_db_epi'
+module 'couch_secondary_sup'
+module 'couch_auth_cache'
+  module 'couch_auth_cache_tests'
+    CouchDB auth cache tests
+      couch_auth_cache_tests:138: should_get_nil_on_missed_cache...[0.045 s] ok
+      couch_auth_cache_tests:141: should_get_right_password_hash...[0.664 s] ok
+      couch_auth_cache_tests:150: should_ensure_doc_hash_equals_cached_one...[0.083 s] ok
+      couch_auth_cache_tests:160: should_update_password...[0.201 s] ok
+      couch_auth_cache_tests:170: should_cleanup_cache_after_userdoc_deletion...[0.108 s] ok
+      couch_auth_cache_tests:177: should_restore_cache_after_userdoc_recreation...[0.239 s] ok
+      couch_auth_cache_tests:191: should_drop_cache_on_auth_db_change...[0.197 s] ok
+      couch_auth_cache_tests:199: should_restore_cache_on_auth_db_change...[0.154 s] ok
+      couch_auth_cache_tests:219: should_recover_cache_after_shutdown...[1.214 s] ok
+      couch_auth_cache_tests:230: should_get_admin_from_config...[0.096 s] ok
+      [done in 3.079 s]
+    Check User doc validation
+      couch_auth_cache_tests:311: make_validate_test ((roles: custom, type: user) -> (roles: custom, type: user) ==> "ok")...[0.530 s] ok
+      couch_auth_cache_tests:311: make_validate_test ((roles: missing, type: missing) -> (roles: custom, type: user) ==> "ok")...[0.016 s] ok
+      couch_auth_cache_tests:311: make_validate_test ((roles: missing, type: user) -> (roles: custom, type: user) ==> "ok")...[0.013 s] ok
+      couch_auth_cache_tests:311: make_validate_test ((roles: custom, type: missing) -> (roles: custom, type: user) ==> "ok")...[0.012 s] ok
+      couch_auth_cache_tests:311: make_validate_test ((roles: missing, type: other) -> (roles: custom, type: user) ==> "ok")...[0.012 s] ok
+      couch_auth_cache_tests:311: make_validate_test ((roles: custom, type: other) -> (roles: custom, type: user) ==> "ok")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: user) -> (roles: missing, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: user) -> (roles: missing, type: user) ==> "doc.roles must exist")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: user) -> (roles: custom, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: user) -> (roles: missing, type: other) ==> "doc.type must be user")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: user) -> (roles: custom, type: other) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: missing) -> (roles: missing, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: missing) -> (roles: missing, type: user) ==> "doc.roles must exist")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: missing) -> (roles: custom, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: missing) -> (roles: missing, type: other) ==> "doc.type must be user")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: missing) -> (roles: custom, type: other) ==> "doc.type must be user")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: user) -> (roles: missing, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: user) -> (roles: missing, type: user) ==> "doc.roles must exist")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: user) -> (roles: custom, type: missing) ==> "doc.type must be user")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: user) -> (roles: missing, type: other) ==> "doc.type must be user")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: user) -> (roles: custom, type: other) ==> "doc.type must be user")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: other) -> (roles: missing, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: other) -> (roles: missing, type: user) ==> "doc.roles must exist")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: other) -> (roles: custom, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: other) -> (roles: missing, type: other) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: missing, type: other) -> (roles: custom, type: other) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: missing) -> (roles: missing, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: missing) -> (roles: missing, type: user) ==> "doc.roles must exist")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: missing) -> (roles: custom, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: missing) -> (roles: missing, type: other) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: missing) -> (roles: custom, type: other) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: other) -> (roles: missing, type: missing) ==> "doc.type must be user")...[0.012 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: other) -> (roles: missing, type: user) ==> "doc.roles must exist")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: other) -> (roles: custom, type: missing) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: other) -> (roles: missing, type: other) ==> "doc.type must be user")...[0.011 s] ok
+      couch_auth_cache_tests:314: make_validate_test ((roles: custom, type: other) -> (roles: custom, type: other) ==> "doc.type must be user")...[0.011 s] ok
+      [done in 1.046 s]
+    [done in 5.627 s]
+  [done in 5.630 s]
+module 'couch_file'
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/dbname.couch)...[0.001 s] ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.dbname_design/mrview/3133e28517e89a3e11435dd5ac4ad85a.view)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/shards/00000000-1fffffff/dbname.1458336317.couch)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.shards/00000000-1fffffff/dbname.1458336317_design)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.shards/00000000-1fffffff/dbname.1458336317_design/mrview/3133e28517e89a3e11435dd5ac4ad85a.view)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/db.name.couch)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.db.name_design/mrview/3133e28517e89a3e11435dd5ac4ad85a.view)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/shards/00000000-1fffffff/db.name.1458336317.couch)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.shards/00000000-1fffffff/db.name.1458336317_design)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.shards/00000000-1fffffff/db.name.1458336317_design/mrview/3133e28517e89a3e11435dd5ac4ad85a.view)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/user/dbname.couch)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.user/dbname_design/mrview/3133e28517e89a3e11435dd5ac4ad85a.view)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/shards/00000000-1fffffff/user/dbname.1458336317.couch)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.shards/00000000-1fffffff/user/dbname.1458336317_design)...ok
+  couch_file:887: should_create_proper_deleted_filename (/srv/data/.shards/00000000-1fffffff/user/dbname.1458336317_design/mrview/3133e28517e89a3e11435dd5ac4ad85a.view)...ok
+  module 'couch_file_tests'
+    Test for proper file open and close
+      couch_file_tests:49: should_return_enoent_if_missed...[0.002 s] ok
+      couch_file_tests:52: should_ignore_invalid_flags_with_open...[0.001 s] ok
+      couch_file_tests:56: should_return_pid_on_file_open...ok
+      couch_file_tests:61: should_close_file_properly...ok
+      couch_file_tests:64: should_create_empty_new_files...ok
+      [done in 0.025 s]
+    Common file read/write tests
+      couch_file_tests:93: should_increase_file_size_on_write...ok
+      couch_file_tests:98: should_return_current_file_size_on_write...ok
+      couch_file_tests:102: should_write_and_read_term...[0.001 s] ok
+      couch_file_tests:106: should_write_and_read_binary...[0.001 s] ok
+      couch_file_tests:120: should_write_and_read_large_binary...[0.002 s] ok
+      couch_file_tests:111: should_return_term_as_binary_for_reading_binary...[0.001 s] ok
+      couch_file_tests:115: should_read_term_written_as_binary...ok
+      couch_file_tests:127: should_read_iolist...ok
+      couch_file_tests:130: should_fsync (How does on test fsync?)...[0.005 s] ok
+      couch_file_tests:144: should_not_read_beyond_eof...[0.002 s] ok
+      couch_file_tests:152: should_truncate...ok
+      [done in 0.124 s]
+    Read limit tests
+      couch_file_tests:93: should_increase_file_size_on_write...ok
+      couch_file_tests:98: should_return_current_file_size_on_write...[0.001 s] ok
+      couch_file_tests:102: should_write_and_read_term...ok
+      couch_file_tests:106: should_write_and_read_binary...ok
+      couch_file_tests:185: should_not_read_more_than_pread_limit...[0.001 s] ok
+      [done in 0.058 s]
+    File header read/write tests
+      couch_file_tests:214: should_write_and_read_atom_header...ok
+      couch_file_tests:218: should_write_and_read_tuple_header...ok
+      couch_file_tests:223: should_write_and_read_second_header...ok
+      couch_file_tests:230: should_truncate_second_header...[0.001 s] ok
+      couch_file_tests:239: should_produce_same_file_size_on_rewrite...[0.001 s] ok
+      couch_file_tests:244: should_save_headers_larger_than_block_size (COUCHDB-1319)...[0.004 s] ok
+      couch_file_tests:248: should_recover_header_marker_corruption...[0.200 s] ok
+      couch_file_tests:259: should_recover_header_size_corruption...[0.106 s] ok
+      couch_file_tests:271: should_recover_header_md5sig_corruption...[0.557 s] ok
+      couch_file_tests:283: should_recover_header_data_corruption...[0.331 s] ok
+      [done in 1.254 s]
+    File delete tests
+      enable_database_recovery = false, context = delete
+        couch_file_tests:396: make_enable_recovery_test_case...ok
+        couch_file_tests:397: make_enable_recovery_test_case...ok
+        couch_file_tests:398: make_enable_recovery_test_case...ok
+        couch_file_tests:399: make_enable_recovery_test_case...ok
+        [done in 0.013 s]
+      enable_database_recovery = true, context = delete
+        couch_file_tests:396: make_enable_recovery_test_case...ok
+        couch_file_tests:397: make_enable_recovery_test_case...ok
+        couch_file_tests:398: make_enable_recovery_test_case...ok
+        couch_file_tests:399: make_enable_recovery_test_case...ok
+        [done in 0.012 s]
+      enable_database_recovery = false, context = compaction
+        couch_file_tests:396: make_enable_recovery_test_case...ok
+        couch_file_tests:397: make_enable_recovery_test_case...ok
+        couch_file_tests:398: make_enable_recovery_test_case...ok
+        couch_file_tests:399: make_enable_recovery_test_case...ok
+        [done in 0.013 s]
+      enable_database_recovery = true, context = compaction
+        couch_file_tests:396: make_enable_recovery_test_case...ok
+        couch_file_tests:397: make_enable_recovery_test_case...ok
+        couch_file_tests:398: make_enable_recovery_test_case...ok
+        couch_file_tests:399: make_enable_recovery_test_case...ok
+        [done in 0.012 s]
+      delete_after_rename = true
+        couch_file_tests:413: make_delete_after_rename_test_case...ok
+        couch_file_tests:414: make_delete_after_rename_test_case...ok
+        couch_file_tests:415: make_delete_after_rename_test_case...ok
+        [done in 0.009 s]
+      delete_after_rename = false
+        couch_file_tests:413: make_delete_after_rename_test_case...ok
+        couch_file_tests:414: make_delete_after_rename_test_case...ok
+        couch_file_tests:415: make_delete_after_rename_test_case...ok
+        [done in 0.009 s]
+      [done in 0.571 s]
+    Nuke directory tests
+      enable_database_recovery = false
+        couch_file_tests:491: make_rename_dir_test_case...ok
+        couch_file_tests:492: make_rename_dir_test_case...ok
+        couch_file_tests:493: make_rename_dir_test_case...ok
+        [done in 0.009 s]
+      enable_database_recovery = true
+        couch_file_tests:491: make_rename_dir_test_case...ok
+        couch_file_tests:492: make_rename_dir_test_case...ok
+        couch_file_tests:493: make_rename_dir_test_case...ok
+        [done in 0.009 s]
+      delete_after_rename = true
+        couch_file_tests:510: make_delete_dir_test_case...ok
+        couch_file_tests:511: make_delete_dir_test_case...ok
+        couch_file_tests:512: make_delete_dir_test_case...ok
+        couch_file_tests:513: make_delete_dir_test_case...ok
+        [done in 0.013 s]
+      delete_after_rename = false
+        couch_file_tests:510: make_delete_dir_test_case...ok
+        couch_file_tests:511: make_delete_dir_test_case...ok
+        couch_file_tests:512: make_delete_dir_test_case...ok
+        couch_file_tests:513: make_delete_dir_test_case...ok
+        [done in 0.012 s]
+      [done in 0.397 s]
+    Test fsync raises errors
+      couch_file_tests: fsync_error_test_...ok
+      [done in 0.004 s]
+    [done in 11.347 s]
+  [done in 11.397 s]
+module 'couch_httpd_auth'
+module 'couch_doc'
+  module 'couch_doc_tests'
+    couch_doc_tests: parse_rev_test...ok
+    couch_doc_tests: doc_from_multi_part_stream_test...[0.541 s] ok
+    couch_doc_tests: doc_to_multi_part_stream_test...ok
+    couch_doc_tests: len_doc_to_multi_part_stream_test...ok
+    couch_doc_tests:89: validate_docid_test_...ok
+    couch_doc_tests:90: validate_docid_test_...ok
+    couch_doc_tests:91: validate_docid_test_...ok
+    couch_doc_tests:92: validate_docid_test_...ok
+    couch_doc_tests:93: validate_docid_test_...ok
+    couch_doc_tests:94: validate_docid_test_...ok
+    couch_doc_tests:95: validate_docid_test_...ok
+    couch_doc_tests:96: validate_docid_test_...ok
+    couch_doc_tests:98: validate_docid_test_...ok
+    couch_doc_tests:100: validate_docid_test_...ok
+    couch_doc_tests:102: validate_docid_test_...ok
+    couch_doc_tests:104: validate_docid_test_...ok
+    couch_doc_tests:106: validate_docid_test_...ok
+    couch_doc_tests:108: validate_docid_test_...ok
+    couch_doc_tests:110: validate_docid_test_...[0.001 s] ok
+    couch_doc_tests:112: validate_docid_test_...[0.001 s] ok
+    [done in 1.260 s]
+  [done in 1.260 s]
+module 'couch_ejson_size'
+  module 'couch_ejson_size_tests'
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...[0.001 s] ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    couch_ejson_size_tests:23: ejson_size_test_...ok
+    [done in 0.127 s]
+  [done in 0.128 s]
+module 'couch_bt_engine_compactor_ev'
+  module 'couch_bt_engine_compactor_ev_tests'
+    Idle empty database
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (files_opened)...[0.096 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (purge_init)...[0.321 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (purge_done)...[0.095 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (seq_init)...[0.200 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (seq_done)...[0.093 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (before_final_sync)...[0.410 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (after_final_sync)...[0.208 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (before_notify)...[0.237 s] ok
+      [done in 2.012 s]
+    Idle populated database
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (files_opened)...[1.864 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (purge_init)...[1.863 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (purge_done)...[1.978 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (seq_init)...[2.022 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init ({seq_copy,0})...[2.100 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init ({seq_copy,1250})...[2.674 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init ({seq_copy,2498})...[2.798 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (seq_done)...[3.019 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (before_final_sync)...[2.017 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (after_final_sync)...[1.678 s] ok
+      couch_bt_engine_compactor_ev_tests:221: run_static_init (before_notify)...[3.611 s] ok
+      [done in 42.555 s]
+    Writes to empty database
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (files_opened)...[0.699 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (purge_init)...[0.764 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (purge_done)...[0.736 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (seq_init)...[1.063 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (seq_done)...[0.820 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (before_final_sync)...[0.801 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (after_final_sync)...[0.942 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (before_notify)...[0.872 s] ok
+      [done in 7.082 s]
+    Writes to populated database
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (files_opened)...[2.806 s] ok
+      couch_bt_engine_compactor_ev_tests:242: run_dynamic_init (purge_init)...[2.513 s] ok

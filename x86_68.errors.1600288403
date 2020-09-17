@@ -1,0 +1,17 @@
+All done! ✨ 🍰 ✨
+37 files would be left unchanged.
+[error] 2020-09-16T20:40:44.865348Z nonode@nohost <0.596.0> -------- Could not open file not a real file: no such file or directory
+[notice] 2020-09-16T20:40:48.715449Z nonode@nohost <0.727.0> -------- config: [couchdb] max_pread_size set to 50000 for reason nil
+[notice] 2020-09-16T20:40:48.780044Z nonode@nohost <0.727.0> -------- config: [couchdb] max_pread_size deleted for reason nil
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+out of memory
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+[notice] 2020-09-16T20:52:59.992545Z nonode@nohost <0.408.0> -------- config: [log] writer set to couch_log_writer_ets for reason nil
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+ERROR: One or more eunit tests failed.
+ERROR: eunit failed while processing /home/eviltwin/apache-couchdb-3.1.0/src/couch_replicator: rebar_abort
+make[1]: *** [Makefile:169: eunit] Error 1
+make: *** [Makefile:150: check] Error 2

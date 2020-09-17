@@ -1,0 +1,48 @@
+All done! ✨ 🍰 ✨
+37 files would be left unchanged.
+[error] 2020-09-17T00:07:08.823875Z nonode@nohost <0.596.0> -------- Could not open file not a real file: no such file or directory
+[notice] 2020-09-17T00:07:11.535679Z nonode@nohost <0.727.0> -------- config: [couchdb] max_pread_size set to 50000 for reason nil
+[notice] 2020-09-17T00:07:11.584472Z nonode@nohost <0.727.0> -------- config: [couchdb] max_pread_size deleted for reason nil
+erl_child_setup: failed with error 32 on line 253
+out of memory
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+[notice] 2020-09-17T00:14:09.355118Z nonode@nohost <0.410.0> -------- config: [log] writer set to couch_log_writer_ets for reason nil
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+Application asn1 was left running!
+Application b64url was left running!
+Application compiler was left running!
+Application khash was left running!
+Application folsom was left running!
+Application couch_stats was left running!
+Application hyper was left running!
+Application ioq was left running!
+Application public_key was left running!
+Application syntax_tools was left running!
+Application xmerl was left running!
+Application mochiweb was left running!
+Application sasl was left running!
+Application rexi was left running!
+Application dreyfus was left running!
+Traceback (most recent call last):
+  File "dev/run", line 834, in <module>
+    main()
+  File "dev/run", line 91, in main
+    startup(ctx)
+  File "dev/run", line 494, in startup
+    cluster_setup_with_admin_party(ctx)
+  File "dev/run", line 742, in cluster_setup_with_admin_party
+    connect_nodes(ctx)
+  File "dev/run", line 751, in connect_nodes
+    try_request(
+  File "dev/run", line 772, in try_request
+    assert resp.status in success_codes, "%s%s" % (error, resp.read())
+AssertionError: Failed to join node1 into cluster:
+b'{"error":"unauthorized","reason":"You are not authorized to access this db."}\n'
+make[1]: *** [Makefile:268: javascript] Error 1
+make: *** [Makefile:151: check] Error 2

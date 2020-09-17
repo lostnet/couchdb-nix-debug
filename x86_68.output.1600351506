@@ -1,0 +1,562 @@
+==> config (compile)
+==> b64url (compile)
+==> ets_lru (compile)
+==> khash (compile)
+==> snappy (compile)
+==> bear (compile)
+==> meck (compile)
+==> folsom (compile)
+==> hyper (compile)
+==> ibrowse (compile)
+==> jiffy (compile)
+==> mochiweb (compile)
+==> recon (compile)
+==> proper (compile)
+==> couch_epi (compile)
+==> couch_log (compile)
+==> chttpd (compile)
+==> couch (compile)
+==> couch_event (compile)
+==> mem3 (compile)
+==> couch_index (compile)
+==> couch_mrview (compile)
+==> couch_replicator (compile)
+==> couch_plugins (compile)
+==> couch_pse_tests (compile)
+==> couch_stats (compile)
+==> couch_peruser (compile)
+==> couch_tests (compile)
+==> ddoc_cache (compile)
+==> dreyfus (compile)
+==> fabric (compile)
+==> global_changes (compile)
+==> ioq (compile)
+==> jwtf (compile)
+==> ken (compile)
+==> mango (compile)
+==> rexi (compile)
+==> setup (compile)
+==> smoosh (compile)
+==> rel (compile)
+==> apache-couchdb-3.1.0 (compile)
+make[1]: Entering directory '/home/eviltwin/apache-couchdb-3.1.0'
+==> config (compile)
+==> b64url (compile)
+==> ets_lru (compile)
+==> khash (compile)
+==> snappy (compile)
+==> bear (compile)
+==> meck (compile)
+==> folsom (compile)
+==> hyper (compile)
+==> ibrowse (compile)
+==> jiffy (compile)
+==> mochiweb (compile)
+==> recon (compile)
+==> proper (compile)
+==> couch_epi (compile)
+==> couch_log (compile)
+==> chttpd (compile)
+==> couch (compile)
+==> couch_event (compile)
+==> mem3 (compile)
+==> couch_index (compile)
+==> couch_mrview (compile)
+==> couch_replicator (compile)
+==> couch_plugins (compile)
+==> couch_pse_tests (compile)
+==> couch_stats (compile)
+==> couch_peruser (compile)
+==> couch_tests (compile)
+==> ddoc_cache (compile)
+==> dreyfus (compile)
+==> fabric (compile)
+==> global_changes (compile)
+==> ioq (compile)
+==> jwtf (compile)
+==> ken (compile)
+==> mango (compile)
+==> rexi (compile)
+==> setup (compile)
+==> smoosh (compile)
+==> rel (compile)
+==> apache-couchdb-3.1.0 (compile)
+==> apache-couchdb-3.1.0 (setup_eunit)
+==> b64url (eunit)
+======================== EUnit ========================
+module 'b64url'
+  module 'b64url_tests'
+    b64url_tests: table_test...ok
+    b64url_tests: encode_binary_test...[1.121 s] ok
+    b64url_tests: encode_iolist_test...[1.019 s] ok
+    b64url_tests: decode_binary_test...[1.147 s] ok
+    b64url_tests: decode_iolist_test...[1.888 s] ok
+    b64url_tests: decode_binary_error_test...[1.062 s] ok
+    b64url_tests: decode_bad_length_test...[0.051 s] ok
+    [done in 6.323 s]
+  [done in 6.324 s]
+=======================================================
+  All 7 tests passed.
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> rel (eunit)
+==> apache-couchdb-3.1.0 (eunit)
+==> chttpd (eunit)
+======================== EUnit ========================
+module 'chttpd_db_test'
+  chttpd db tests
+    chttpd_db_test:94: should_return_ok_true_on_bulk_update...[0.176 s] ok
+    chttpd_db_test:109: should_return_ok_true_on_ensure_full_commit...[0.007 s] ok
+    chttpd_db_test:119: should_return_404_for_ensure_full_commit_on_no_db...[0.008 s] ok
+    chttpd_db_test:139: should_accept_live_as_an_alias_for_continuous...[0.073 s] ok
+    chttpd_db_test:462: should_return_headers_after_starting_continious...[0.011 s] ok
+    chttpd_db_test:151: should_return_404_for_delete_att_on_notadoc...[0.016 s] ok
+    chttpd_db_test:173: should_return_409_for_del_att_without_rev...[0.068 s] ok
+    chttpd_db_test:191: should_return_200_for_del_att_with_rev...[0.074 s] ok
+    chttpd_db_test:212: should_return_409_for_put_att_nonexistent_rev...[0.027 s] ok
+    chttpd_db_test:227: should_return_update_seq_when_set_on_all_docs...[0.084 s] ok
+    chttpd_db_test:241: should_not_return_update_seq_when_unset_on_all_docs...[0.047 s] ok
+    chttpd_db_test:255: should_return_correct_id_on_doc_copy...[0.063 s] ok
+    chttpd_db_test:286: should_return_400_for_bad_engine...[0.009 s] ok
+    chttpd_db_test:298: should_not_change_db_proper_after_rewriting_shardmap...[0.028 s] ok
+    chttpd_db_test:321: should_succeed_on_all_docs_with_queries_keys...[0.131 s] ok
+    chttpd_db_test:335: should_succeed_on_all_docs_with_queries_limit_skip...[0.130 s] ok
+    chttpd_db_test:350: should_succeed_on_all_docs_with_multiple_queries...[0.190 s] ok
+    chttpd_db_test:368: should_succeed_on_design_docs_with_queries_keys...[0.157 s] ok
+    chttpd_db_test:383: should_succeed_on_design_docs_with_queries_limit_skip...[0.142 s] ok
+    chttpd_db_test:398: should_succeed_on_design_docs_with_multiple_queries...[0.148 s] ok
+    chttpd_db_test:416: should_succeed_on_local_docs_with_queries_keys...[0.114 s] ok
+    chttpd_db_test:431: should_succeed_on_local_docs_with_queries_limit_skip...[0.120 s] ok
+    chttpd_db_test:445: should_succeed_on_local_docs_with_multiple_queries...[0.134 s] ok
+    [done in 3.498 s]
+  [done in 6.764 s]
+module 'chttpd_xframe_test'
+  chttpd_xframe_test: no_header_if_xframe_disabled_test...ok
+  chttpd_xframe_test: enabled_with_same_origin_test...ok
+  xframe host tests
+    chttpd_xframe_test:89: allow_with_wildcard_host...ok
+    chttpd_xframe_test:93: allow_with_specific_host...ok
+    chttpd_xframe_test:97: deny_with_different_host...ok
+    [done in 0.013 s]
+  [done in 0.401 s]
+module 'chttpd_db'
+  chttpd_db: monitor_attachments_test_ (ignore stubs)...ok
+  chttpd_db:2134: t_should_allow_partitioned_db...[0.099 s] ok
+  chttpd_db:2142: t_should_throw_on_not_allowed_partitioned_db...[0.153 s] ok
+  chttpd_db:2150: t_returns_empty_array_for_partitioned_false...[0.001 s] ok
+  chttpd_db:2156: t_returns_empty_array_for_no_partitioned_qs...ok
+  [done in 0.288 s]
+module 'chttpd_prefer_header_test'
+  chttpd_prefer_header_test: default_no_exclude_header_test...ok
+  chttpd_prefer_header_test: unsupported_exclude_header_test...ok
+  chttpd_prefer_header_test: empty_header_test...ok
+  Test Prefer headers
+    chttpd_prefer_header_test:115: minimal_options...ok
+    chttpd_prefer_header_test:121: minimal_options_check_header_case...ok
+    chttpd_prefer_header_test:127: minimal_options_check_header_value_case...ok
+    [done in 0.013 s]
+  [done in 0.385 s]
+module 'chttpd_open_revs_error_test'
+  open revs error tests
+    chttpd_open_revs_error_test:78: should_return_503_error_for_open_revs_get...ok
+    chttpd_open_revs_error_test:104: should_return_503_error_for_open_revs_post_form...ok
+    chttpd_open_revs_error_test:105: should_return_503_error_for_open_revs_post_form...ok
+    [done in 1.584 s]
+  [done in 2.225 s]
+module 'chttpd_node'
+module 'chttpd_rewrite'
+module 'chttpd_auth'
+  module 'chttpd_auth_tests'
+    _up
+      chttpd_auth_tests:60: should_handle_require_valid_user_except_up_on_up_route...[0.005 s] ok
+      chttpd_auth_tests:99: should_handle_require_valid_user_except_up_on_non_up_routes...[0.005 s] ok
+      [done in 0.017 s]
+    [done in 0.688 s]
+  [done in 0.689 s]
+module 'chttpd_welcome_test'
+  chttpd welcome endpoint tests
+    chttpd_welcome_test:74: should_have_version...[0.034 s] ok
+    chttpd_welcome_test:91: should_have_features...[0.015 s] ok
+    chttpd_welcome_test:56: should_have_uuid...[0.006 s] ok
+    [done in 0.072 s]
+  [done in 0.727 s]
+module 'chttpd_test_util'
+module 'chttpd_db_bulk_get_multipart_test'
+  /db/_bulk_get tests
+    chttpd_db_bulk_get_multipart_test:82: should_require_docs_field...[0.001 s] ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (rev)...[0.001 s] ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (open_revs)...[0.001 s] ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (atts_since)...[0.001 s] ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (w)...[0.001 s] ok
+    chttpd_db_bulk_get_multipart_test:89: should_not_accept_specific_query_params (new_edits)...[0.001 s] ok
+    chttpd_db_bulk_get_multipart_test:101: should_return_empty_results_on_no_docs...ok
+    chttpd_db_bulk_get_multipart_test:116: should_get_doc_with_all_revs...ok
+    chttpd_db_bulk_get_multipart_test:129: should_validate_doc_with_bad_id...ok
+    chttpd_db_bulk_get_multipart_test:146: should_validate_doc_with_bad_rev...ok
+    chttpd_db_bulk_get_multipart_test:164: should_validate_missing_doc...ok
+    chttpd_db_bulk_get_multipart_test:182: should_validate_bad_atts_since...ok
+    chttpd_db_bulk_get_multipart_test:197: should_include_attachments_when_atts_since_specified...[0.009 s] ok
+    [done in 0.479 s]
+  [done in 12.801 s]
+module 'chttpd'
+  chttpd:1215: check_url_encoding_pass_test_...ok
+  chttpd:1216: check_url_encoding_pass_test_...ok
+  chttpd:1217: check_url_encoding_pass_test_...ok
+  chttpd:1218: check_url_encoding_pass_test_...ok
+  chttpd:1219: check_url_encoding_pass_test_...ok
+  chttpd:1220: check_url_encoding_pass_test_...ok
+  chttpd:1221: check_url_encoding_pass_test_...ok
+  chttpd:1222: check_url_encoding_pass_test_...ok
+  chttpd:1223: check_url_encoding_pass_test_...ok
+  chttpd:1224: check_url_encoding_pass_test_...ok
+  chttpd:1225: check_url_encoding_pass_test_...ok
+  chttpd:1226: check_url_encoding_pass_test_...ok
+  chttpd:1227: check_url_encoding_pass_test_...ok
+  chttpd:1228: check_url_encoding_pass_test_...ok
+  chttpd:1233: check_url_encoding_fail_test_...ok
+  chttpd:1235: check_url_encoding_fail_test_...ok
+  chttpd:1237: check_url_encoding_fail_test_...ok
+  chttpd:1239: check_url_encoding_fail_test_...ok
+  chttpd:1241: check_url_encoding_fail_test_...ok
+  chttpd:1243: check_url_encoding_fail_test_...ok
+  chttpd:1245: check_url_encoding_fail_test_...ok
+  chttpd:1247: check_url_encoding_fail_test_...ok
+  chttpd:1249: check_url_encoding_fail_test_...ok
+  chttpd:1251: check_url_encoding_fail_test_...ok
+  chttpd:1253: check_url_encoding_fail_test_...ok
+  chttpd:1255: check_url_encoding_fail_test_...ok
+  chttpd:1257: check_url_encoding_fail_test_...ok
+  chttpd:1259: check_url_encoding_fail_test_...ok
+  chttpd: log_format_test...[0.351 s] ok
+  chttpd: handle_req_after_auth_test...[0.749 s] ok
+  [done in 1.190 s]
+module 'chttpd_plugin'
+  module 'chttpd_plugin_tests'
+    callback tests
+      chttpd_plugin_tests: callback_test_...[0.017 s] ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      chttpd_plugin_tests: callback_test_...ok
+      [done in 0.063 s]
+    [done in 0.207 s]
+  [done in 0.207 s]
+module 'chttpd_misc'
+module 'chttpd_stats'
+module 'chttpd_handlers'
+  chttpd_handlers: select_override_test...ok
+  chttpd_handlers: select_default_override_test...ok
+  module 'chttpd_handlers_tests'
+    _replicate
+      chttpd_handlers_tests:48: should_escape_dbname_on_replicate...[1.184 s] ok
+      [done in 1.188 s]
+    [done in 1.937 s]
+  [done in 1.943 s]
+module 'chttpd_auth_request'
+module 'chttpd_auth_cache'
+module 'chttpd_cors'
+module 'chttpd_prefer_header'
+module 'chttpd_show'
+module 'chttpd_sup'
+module 'chttpd_dbs_info_test'
+  chttpd dbs info tests
+    chttpd_dbs_info_test:73: should_return_error_for_get_db_info...[0.007 s] ok
+    chttpd_dbs_info_test:86: should_return_dbs_info_for_single_db...[0.029 s] ok
+    chttpd_dbs_info_test:102: should_return_dbs_info_for_multiple_dbs...[0.013 s] ok
+    chttpd_dbs_info_test:123: should_return_error_for_exceeded_keys...[0.026 s] ok
+    chttpd_dbs_info_test:139: should_return_error_for_missing_keys...[0.006 s] ok
+    chttpd_dbs_info_test:153: should_return_dbs_info_for_dbs_with_mixed_state...[0.012 s] ok
+    [done in 0.778 s]
+  [done in 1.453 s]
+module 'chttpd_view_test'
+  chttpd view tests
+    chttpd_view_test:75: should_succeed_on_view_with_queries_keys...[0.951 s] ok
+    chttpd_view_test:91: should_succeed_on_view_with_queries_limit_skip...[0.215 s] ok
+    chttpd_view_test:108: should_succeed_on_view_with_multiple_queries...[0.227 s] ok
+    [done in 1.630 s]
+  [done in 2.316 s]
+module 'chttpd_xframe_options'
+module 'chttpd_app'
+module 'chttpd_httpd_handlers'
+module 'chttpd_socket_buffer_size_test'
+  chttpd socket_buffer_size_test
+    chttpd_socket_buffer_size_test:69: default_buffer...[0.038 s] ok
+    chttpd_socket_buffer_size_test:53: small_recbuf...[0.006 s] ok
+    chttpd_socket_buffer_size_test:61: small_buffer...*failed*
+in function chttpd_socket_buffer_size_test:'-small_buffer/2-fun-0-'/1 (test/eunit/chttpd_socket_buffer_size_test.erl, line 64)
+in call from eunit_test:run_testfun/1 (eunit_test.erl, line 71)
+in call from eunit_proc:run_test/1 (eunit_proc.erl, line 510)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 335)
+in call from eunit_proc:handle_test/2 (eunit_proc.erl, line 493)
+in call from eunit_proc:tests_inorder/3 (eunit_proc.erl, line 435)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 325)
+in call from eunit_proc:run_group/2 (eunit_proc.erl, line 549)
+**error:{assert,[{module,chttpd_socket_buffer_size_test},
+         {line,64},
+         {expression,"Response =:= 400 orelse Response =:= request_failed"},
+         {expected,true},
+         {value,false}]}
+  output:<<"">>
+
+    [done in 2.189 s]
+  [done in 2.189 s]
+module 'chttpd_cors_test'
+  CORS disabled tests
+    Empty user
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      chttpd_cors_test:133: assert_not_preflight_...ok
+      [done in 0.013 s]
+    [done in 0.013 s]
+  Minimal CORS enabled, no Origins
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:293: test_incorrect_origin_simple_request_...ok
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:305: test_incorrect_origin_preflight_request_...ok
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    [done in 0.018 s]
+  Simple CORS config
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:375: test_preflight_request_...ok
+    chttpd_cors_test:377: test_preflight_request_...ok
+    chttpd_cors_test:318: test_bad_headers_preflight_request_...ok
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:333: test_good_headers_preflight_request_...ok
+    chttpd_cors_test:335: test_good_headers_preflight_request_...ok
+    chttpd_cors_test:337: test_good_headers_preflight_request_...ok
+    chttpd_cors_test:432: test_db_request_...ok
+    chttpd_cors_test:434: test_db_request_...ok
+    chttpd_cors_test:461: test_db_preflight_request_...ok
+    chttpd_cors_test:463: test_db_preflight_request_...ok
+    chttpd_cors_test:477: test_db_host_origin_request_...ok
+    chttpd_cors_test:479: test_db_host_origin_request_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:531: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    chttpd_cors_test:533: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    [done in 0.067 s]
+  Simple CORS config with custom allow_methods/allow_headers/exposed_headers
+    chttpd_cors_test:356: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:358: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:360: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:362: test_good_headers_preflight_request_with_custom_config_...ok
+    chttpd_cors_test:446: test_db_request_with_custom_config_...ok
+    chttpd_cors_test:448: test_db_request_with_custom_config_...ok
+    [done in 0.020 s]
+  Multiple options CORS config
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:375: test_preflight_request_...ok
+    chttpd_cors_test:377: test_preflight_request_...ok
+    chttpd_cors_test:432: test_db_request_...ok
+    chttpd_cors_test:434: test_db_request_...ok
+    chttpd_cors_test:461: test_db_preflight_request_...ok
+    chttpd_cors_test:463: test_db_preflight_request_...ok
+    chttpd_cors_test:477: test_db_host_origin_request_...ok
+    chttpd_cors_test:479: test_db_host_origin_request_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    [done in 0.038 s]
+  Allow credentials disabled
+    chttpd_cors_test:544: test_db_request_credentials_header_off_...ok
+    chttpd_cors_test:546: test_db_request_credentials_header_off_...ok
+    [done in 0.007 s]
+  Allow credentials enabled
+    chttpd_cors_test:557: test_db_request_credentials_header_on_...ok
+    chttpd_cors_test:559: test_db_request_credentials_header_on_...ok
+    [done in 0.006 s]
+  Wildcard CORS config
+    chttpd_cors_test:133: assert_not_preflight_...ok
+    chttpd_cors_test:375: test_preflight_request_...ok
+    chttpd_cors_test:377: test_preflight_request_...ok
+    chttpd_cors_test:399: test_preflight_request_no_allow_credentials_...ok
+    chttpd_cors_test:401: test_preflight_request_no_allow_credentials_...ok
+    chttpd_cors_test:403: test_preflight_request_no_allow_credentials_...ok
+    chttpd_cors_test:417: test_preflight_request_empty_request_headers_...ok
+    chttpd_cors_test:419: test_preflight_request_empty_request_headers_...ok
+    chttpd_cors_test:421: test_preflight_request_empty_request_headers_...ok
+    chttpd_cors_test:432: test_db_request_...ok
+    chttpd_cors_test:434: test_db_request_...ok
+    chttpd_cors_test:461: test_db_preflight_request_...ok
+    chttpd_cors_test:463: test_db_preflight_request_...ok
+    chttpd_cors_test:477: test_db_host_origin_request_...ok
+    chttpd_cors_test:479: test_db_host_origin_request_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:491: test_preflight_origin_helper_...ok
+    chttpd_cors_test:531: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    chttpd_cors_test:533: test_case_sensitive_mismatch_of_allowed_origins_...ok
+    [done in 0.066 s]
+  [done in 0.235 s]
+module 'chttpd_db_bulk_get_test'
+  /db/_bulk_get tests
+    chttpd_db_bulk_get_test:72: should_require_docs_field...ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (rev)...[0.001 s] ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (open_revs)...ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (atts_since)...[0.001 s] ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (w)...ok
+    chttpd_db_bulk_get_test:78: should_not_accept_specific_query_params (new_edits)...ok
+    chttpd_db_bulk_get_test:89: should_return_empty_results_on_no_docs...ok
+    chttpd_db_bulk_get_test:115: should_get_doc_with_all_revs...ok
+    chttpd_db_bulk_get_test:133: should_validate_doc_with_bad_id...ok
+    chttpd_db_bulk_get_test:156: should_validate_doc_with_bad_rev...ok
+    chttpd_db_bulk_get_test:180: should_validate_missing_doc...ok
+    chttpd_db_bulk_get_test:204: should_validate_bad_atts_since...ok
+    chttpd_db_bulk_get_test:219: should_include_attachments_when_atts_since_specified...ok
+    [done in 0.454 s]
+  [done in 10.042 s]
+module 'chttpd_view'
+  chttpd_view:142: t_check_include_docs_throw_validation_error...[0.010 s] ok
+  chttpd_view:152: t_check_user_can_override_individual_query_type...[0.001 s] ok
+  [done in 0.018 s]
+module 'chttpd_external'
+module 'chttpd_epi'
+module 'chttpd_db_attachment_size_tests'
+  chttpd max_attachment_size tests
+    chttpd_db_attachment_size_tests:67: put_inline...[0.024 s] ok
+    chttpd_db_attachment_size_tests:75: put_simple...[0.056 s] ok
+    chttpd_db_attachment_size_tests:89: put_simple_chunked...[0.055 s] ok
+    chttpd_db_attachment_size_tests:103: put_mp_related...[0.022 s] ok
+    [done in 0.505 s]
+  [done in 1.227 s]
+module 'chttpd_db_doc_size_tests'
+  chttpd db max_document_size tests
+    chttpd_db_doc_size_tests:84: post_single_doc...ok
+    chttpd_db_doc_size_tests:92: put_single_doc...ok
+    chttpd_db_doc_size_tests:101: bulk_doc...ok
+    chttpd_db_doc_size_tests:127: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:128: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:129: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:130: put_post_doc_attach_inline...ok
+    chttpd_db_doc_size_tests:152: put_multi_part_related...ok
+    chttpd_db_doc_size_tests:153: put_multi_part_related...ok
+    chttpd_db_doc_size_tests:177: post_multi_part_form...ok
+    chttpd_db_doc_size_tests:178: post_multi_part_form...ok
+    [done in 0.530 s]
+  [done in 1.205 s]
+module 'chttpd_security_tests'
+  chttpd security tests
+    chttpd_security_tests:148: should_allow_admin_db_compaction...[0.007 s] ok
+    chttpd_security_tests:164: should_allow_valid_password_to_create_user...ok
+    chttpd_security_tests:174: should_disallow_invalid_password_to_create_user...ok
+    chttpd_security_tests:182: should_disallow_anonymous_db_compaction...ok
+    chttpd_security_tests:190: should_disallow_db_member_db_compaction...ok
+    chttpd_security_tests:193: should_allow_db_admin_db_compaction...[0.006 s] ok
+    chttpd_security_tests:203: should_allow_admin_view_compaction...[0.007 s] ok
+    chttpd_security_tests:218: should_disallow_anonymous_view_compaction...ok
+    chttpd_security_tests:221: should_allow_admin_db_view_cleanup...[0.005 s] ok
+    chttpd_security_tests:236: should_disallow_anonymous_db_view_cleanup...ok
+    chttpd_security_tests:239: should_allow_admin_purge...[0.019 s] ok
+    chttpd_security_tests:255: should_disallow_anonymous_purge...ok
+    chttpd_security_tests:263: should_disallow_db_member_purge...ok
+    chttpd_security_tests:266: should_allow_admin_purged_infos_limit...[0.006 s] ok
+    chttpd_security_tests:281: should_disallow_anonymous_purged_infos_limit...ok
+    chttpd_security_tests:289: should_disallow_db_member_purged_infos_limit...ok
+    [done in 2.966 s]
+  chttpd security object validate tests
+    chttpd_security_tests:301: should_return_ok_for_sec_obj_with_roles...ok
+    chttpd_security_tests:313: should_return_ok_for_sec_obj_with_names...ok
+    chttpd_security_tests:327: should_return_ok_for_sec_obj_with_roles_and_names...ok
+    chttpd_security_tests:342: should_return_error_for_sec_obj_with_incorrect_roles_and_names...ok
+    chttpd_security_tests:343: should_return_error_for_sec_obj_with_incorrect_roles_and_names...ok
+    chttpd_security_tests:361: should_return_error_for_sec_obj_with_incorrect_roles...ok
+    chttpd_security_tests:362: should_return_error_for_sec_obj_with_incorrect_roles...ok
+    chttpd_security_tests:380: should_return_error_for_sec_obj_with_incorrect_names...ok
+    chttpd_security_tests:381: should_return_error_for_sec_obj_with_incorrect_names...ok
+    chttpd_security_tests:401: should_return_error_for_sec_obj_in_user_db...ok
+    chttpd_security_tests:402: should_return_error_for_sec_obj_in_user_db...ok
+    [done in 1.197 s]
+  [done in 5.544 s]
+module 'chttpd_session_tests'
+  Session tests
+    chttpd_session_tests:46: session_test_ (session_authentication_db_absent)...[0.010 s] ok
+    chttpd_session_tests:47: session_test_ (session_authentication_db_present)...[0.008 s] ok
+    [done in 0.030 s]
+  [done in 0.721 s]
+chttpd_error_info_tests: error_info_test (module 'chttpd_error_info_tests')...ok
+module 'chttpd_purge_tests'
+  chttpd db tests
+    chttpd_purge_tests:94: test_empty_purge_request...[0.008 s] ok
+    chttpd_purge_tests:111: test_ok_purge_request...[0.059 s] ok
+    chttpd_purge_tests:148: test_ok_purge_request_with_101_docid...[0.307 s] ok
+    chttpd_purge_tests:177: test_accepted_purge_request...[0.728 s] ok
+    chttpd_purge_tests:209: test_partial_purge_request...[0.053 s] ok
+    chttpd_purge_tests:245: test_mixed_purge_request...[0.092 s] ok
+    chttpd_purge_tests:293: test_overmany_ids_or_revs_purge_request...[0.078 s] ok
+    chttpd_purge_tests:343: test_exceed_limits_on_purge_infos...[0.063 s] ok
+    chttpd_purge_tests:386: should_error_set_purged_docs_limit_to0...[0.009 s] ok
+    chttpd_purge_tests:394: test_timeout_set_purged_infos_limit...[0.720 s] ok
+    [done in 2.741 s]
+  [done in 3.421 s]
+module 'chttpd_csp_tests'
+  Content Security Policy tests
+    chttpd_csp_tests:50: should_not_return_any_csp_headers_when_disabled...[0.006 s] ok
+    chttpd_csp_tests:58: should_apply_default_policy...[0.004 s] ok
+    chttpd_csp_tests:67: should_return_custom_policy...[0.005 s] ok
+    chttpd_csp_tests:76: should_only_enable_csp_when_true...[0.005 s] ok
+    [done in 0.037 s]
+  [done in 0.708 s]
+=======================================================
+  Failed: 1.  Skipped: 0.  Passed: 263.
+Cover analysis: /home/eviltwin/apache-couchdb-3.1.0/src/chttpd/.eunit/index.html
+
+Code Coverage:
+chttpd                            :  63%
+chttpd_app                        : 100%
+chttpd_auth                       :  78%
+chttpd_auth_cache                 :  46%
+chttpd_auth_request               :  47%
+chttpd_cors                       :  65%
+chttpd_cors_test                  :  98%
+chttpd_csp_tests                  : 100%
+chttpd_db                         :  52%
+chttpd_db_attachment_size_tests   : 100%
+chttpd_db_bulk_get_multipart_test :  97%
+chttpd_db_bulk_get_test           :  97%
+chttpd_db_doc_size_tests          :  97%
+chttpd_db_test                    :  99%
+chttpd_dbs_info_test              : 100%
+chttpd_epi                        : 100%
+chttpd_error_info_tests           : 100%
+chttpd_external                   :   0%
+chttpd_handlers                   : 100%
+chttpd_httpd_handlers             :  42%
+chttpd_misc                       :  31%
+chttpd_node                       :   0%
+chttpd_open_revs_error_test       : 100%
+chttpd_plugin                     : 100%
+chttpd_prefer_header              : 100%
+chttpd_prefer_header_test         : 100%
+chttpd_purge_tests                : 100%
+chttpd_rewrite                    :   0%
+chttpd_security_tests             : 100%
+chttpd_session_tests              : 100%
+chttpd_show                       :   0%
+chttpd_socket_buffer_size_test    : 100%
+chttpd_stats                      :  66%
+chttpd_sup                        :  47%
+chttpd_test_util                  : 100%
+chttpd_view                       :  64%
+chttpd_view_test                  : 100%
+chttpd_welcome_test               : 100%
+chttpd_xframe_options             :  82%
+chttpd_xframe_test                : 100%
+
+Total                             : 65%
+make[1]: Leaving directory '/home/eviltwin/apache-couchdb-3.1.0'

@@ -1,0 +1,9 @@
+All done! ✨ 🍰 ✨
+37 files would be left unchanged.
+erl_child_setup: failed with error 32 on line 253
+out of memory
+[notice] 2020-09-16T07:07:30.904659Z nonode@nohost <0.466.0> -------- config: [log] writer set to couch_log_writer_ets for reason nil
+ERROR: One or more eunit tests failed.
+ERROR: eunit failed while processing /home/eviltwin/apache-couchdb-3.1.0/src/couch_replicator: rebar_abort
+make[1]: *** [Makefile:169: eunit] Error 1
+make: *** [Makefile:150: check] Error 2

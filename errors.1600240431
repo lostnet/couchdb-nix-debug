@@ -1,0 +1,12 @@
+All done! ✨ 🍰 ✨
+37 files would be left unchanged.
+erl_child_setup: failed with error 32 on line 253
+out of memory
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+erl_child_setup: failed with error 32 on line 253
+ERROR: One or more eunit tests failed.
+ERROR: eunit failed while processing /home/eviltwin/apache-couchdb-3.1.0/src/couch: rebar_abort
+make[1]: *** [Makefile:169: eunit] Error 1
+make: *** [Makefile:150: check] Error 2
