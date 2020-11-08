@@ -1,0 +1,4 @@
+Result summary:
+Passed: 40244
+Failed: 0
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-78.1.0/obj/js/src'

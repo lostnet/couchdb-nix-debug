@@ -1,0 +1,10 @@
+FAILURES:
+TIMEOUTS:
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/spread-call-maxarg.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/spread-call-near-maxarg.js
+Result summary:
+Passed: 40260
+Failed: 2
+make[1]: *** [Makefile:54: check-jit-test] Error 2
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-78.4.0/obj/js/src'
+make: *** [Makefile:245: check-jit-test] Error 2

@@ -1,0 +1,5 @@
+Result summary:
+Passed: 28758
+Failed: 0
+{"action": "suite_end", "pid": 2738, "source": "jittests", "thread": "main", "time": 1604017559.694487}
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-60.9.0/obj/js/src'
