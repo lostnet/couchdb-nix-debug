@@ -1,0 +1,26 @@
+FAILURES:
+TIMEOUTS:
+    basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1355573.js
+    --baseline-eager basic/bug1355573.js
+    --blinterp-eager basic/bug1373356.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/bug1355573.js
+    --blinterp-eager basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/max-string-length.js
+    basic/max-string-length.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/max-string-length.js
+    --baseline-eager basic/max-string-length.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/merge_type_maps.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/max-string-length.js
+    --blinterp-eager basic/max-string-length.js
+    wasm/atomicity.js
+    --ion-eager --ion-offthread-compile=off --more-compartments wasm/atomicity.js
+    --baseline-eager wasm/atomicity.js
+    --blinterp-eager wasm/atomicity.js
+Result summary:
+Passed: 40244
+Failed: 18
+make[1]: *** [Makefile:54: check-jit-test] Error 2
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-78.3.1/obj/js/src'
+make: *** [Makefile:245: check-jit-test] Error 2

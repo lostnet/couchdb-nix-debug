@@ -1,0 +1,25 @@
+FAILURES:
+TIMEOUTS:
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/bug1355573.js
+    basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1355573.js
+    --baseline-eager basic/bug1355573.js
+    --blinterp-eager basic/bug1355573.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/bug1459258.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1459258.js
+    --baseline-eager basic/expr-decompiler-bug1475953.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/expr-decompiler-bug1475953.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/expr-decompiler-bug1475953.js
+    --blinterp-eager basic/expr-decompiler-bug1475953.js
+    basic/max-string-length.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/max-string-length.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/max-string-length.js
+    --baseline-eager basic/max-string-length.js
+    wasm/atomicity.js
+    --ion-eager --ion-offthread-compile=off --more-compartments wasm/atomicity.js
+    --baseline-eager wasm/atomicity.js
+Result summary:
+Passed: 40225
+Failed: 19
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-78.1.0/obj/js/src'

@@ -1,0 +1,32 @@
+FAILURES:
+TIMEOUTS:
+    basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1355573.js
+    --baseline-eager basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/bug1380962.js
+    basic/bug1380962.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/bug1355573.js
+    --blinterp-eager basic/bug1355573.js
+    --baseline-eager basic/expr-decompiler-bug1475953.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/expr-decompiler-bug1475953.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/expr-decompiler-bug1475953.js
+    --blinterp-eager basic/expr-decompiler-bug1475953.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/max-string-length.js
+    basic/max-string-length.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/max-string-length.js
+    --baseline-eager basic/max-string-length.js
+    --blinterp-eager basic/max-string-length.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/max-string-length.js
+    --baseline-eager basic/missingArgTest.js
+    --no-blinterp --no-baseline --no-ion --more-compartments basic/missingArgTest.js
+    --ion-eager --ion-offthread-compile=off --more-compartments wasm/atomicity.js
+    --baseline-eager wasm/atomicity.js
+    --no-blinterp --no-baseline --no-ion --more-compartments wasm/atomicity.js
+    --wasm-compiler=baseline wasm/atomicity.js
+Result summary:
+Passed: 40238
+Failed: 24
+make[1]: *** [Makefile:54: check-jit-test] Error 2
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-78.4.0/obj/js/src'
+make: *** [Makefile:245: check-jit-test] Error 2

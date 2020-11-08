@@ -1,0 +1,14 @@
+make[1]: Entering directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/config'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/config'
+make[1]: Entering directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/editline'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/editline'
+make[1]: Entering directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/shell'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/shell'
+make[1]: Entering directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/jsapi-tests'
+../dist/bin/jsapi-tests
+make[1]: *** [Makefile:97: check] Segmentation fault (core dumped)
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/js-1.8.5/js/src/jsapi-tests'
+make: *** [config/rules.mk:2319: check] Error 2

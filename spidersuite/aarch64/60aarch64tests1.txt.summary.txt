@@ -1,0 +1,836 @@
+FAILURES:
+    bug847682.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads bug847682.js
+    --ion-eager --ion-offthread-compile=off bug847682.js
+    --baseline-eager bug847682.js
+    --no-baseline --no-ion bug847682.js
+    --ion-eager --ion-offthread-compile=off arrays/sort-getter-only.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads arrays/sort-getter-only.js
+    arrays/sort-getter-only.js
+    --baseline-eager arrays/sort-getter-only.js
+    --no-baseline --no-ion arrays/sort-getter-only.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads arrow-functions/arguments-4.js
+    arrow-functions/arguments-4.js
+    --ion-eager --ion-offthread-compile=off arrow-functions/arguments-4.js
+    --baseline-eager arrow-functions/arguments-4.js
+    --no-baseline --no-ion arrow-functions/arguments-4.js
+    --ion-eager --ion-offthread-compile=off auto-regress/bug1263532.js
+    auto-regress/bug1263532.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads auto-regress/bug1263532.js
+    --baseline-eager auto-regress/bug1263532.js
+    --no-baseline --no-ion auto-regress/bug1263532.js
+    auto-regress/bug562028.js
+    --ion-eager --ion-offthread-compile=off auto-regress/bug562028.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads auto-regress/bug562028.js
+    --baseline-eager auto-regress/bug562028.js
+    --no-baseline --no-ion auto-regress/bug562028.js
+    auto-regress/bug613400.js
+    --ion-eager --ion-offthread-compile=off auto-regress/bug613400.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads auto-regress/bug613400.js
+    --baseline-eager auto-regress/bug613400.js
+    --no-baseline --no-ion auto-regress/bug613400.js
+    --ion-eager --ion-offthread-compile=off auto-regress/bug682252.js
+    auto-regress/bug682252.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads auto-regress/bug682252.js
+    --baseline-eager auto-regress/bug682252.js
+    --no-baseline --no-ion auto-regress/bug682252.js
+    auto-regress/bug730806.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads auto-regress/bug730806.js
+    --ion-eager --ion-offthread-compile=off auto-regress/bug730806.js
+    --baseline-eager auto-regress/bug730806.js
+    --no-baseline --no-ion auto-regress/bug730806.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads auto-regress/bug763989.js
+    auto-regress/bug763989.js
+    --ion-eager --ion-offthread-compile=off auto-regress/bug763989.js
+    --baseline-eager auto-regress/bug763989.js
+    --no-baseline --no-ion auto-regress/bug763989.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/array-copyWithin.js
+    --ion-eager --ion-offthread-compile=off basic/array-copyWithin.js
+    --baseline-eager basic/array-copyWithin.js
+    basic/array-copyWithin.js
+    --no-baseline --no-ion basic/array-copyWithin.js
+    --ion-eager --ion-offthread-compile=off basic/bug1015766.js
+    basic/bug1015766.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1015766.js
+    --baseline-eager basic/bug1015766.js
+    --no-baseline --no-ion basic/bug1015766.js
+    basic/bug1018620.js
+    --ion-eager --ion-offthread-compile=off basic/bug1018620.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1018620.js
+    --baseline-eager basic/bug1018620.js
+    basic/bug1033946.js
+    --no-baseline --no-ion basic/bug1018620.js
+    --baseline-eager basic/bug1033946.js
+    --no-baseline --no-ion basic/bug1033946.js
+    --ion-eager --ion-offthread-compile=off basic/bug1033946.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1033946.js
+    --ion-eager --ion-offthread-compile=off basic/bug1081175.js
+    basic/bug1081175.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1081175.js
+    --baseline-eager basic/bug1081175.js
+    --no-baseline --no-ion basic/bug1081175.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug558531.js
+    --ion-eager --ion-offthread-compile=off basic/bug558531.js
+    basic/bug558531.js
+    --baseline-eager basic/bug558531.js
+    --no-baseline --no-ion basic/bug558531.js
+    basic/bug576823-regexp.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug576823-regexp.js
+    --ion-eager --ion-offthread-compile=off basic/bug576823-regexp.js
+    --baseline-eager basic/bug576823-regexp.js
+    --no-baseline --no-ion basic/bug576823-regexp.js
+    basic/bug594108.js
+    --ion-eager --ion-offthread-compile=off basic/bug594108.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug594108.js
+    --baseline-eager basic/bug594108.js
+    --no-baseline --no-ion basic/bug594108.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug594205.js
+    --baseline-eager basic/bug594205.js
+    basic/bug594205.js
+    --ion-eager --ion-offthread-compile=off basic/bug594205.js
+    --no-baseline --no-ion basic/bug594205.js
+    --ion-eager --ion-offthread-compile=off basic/bug599854.js
+    basic/bug599854.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug599854.js
+    --baseline-eager basic/bug599854.js
+    --no-baseline --no-ion basic/bug599854.js
+    --ion-eager --ion-offthread-compile=off basic/bug605754-regexp.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug605754-regexp.js
+    basic/bug605754-regexp.js
+    --baseline-eager basic/bug605754-regexp.js
+    --no-baseline --no-ion basic/bug605754-regexp.js
+    basic/bug606882-1.js
+    --ion-eager --ion-offthread-compile=off basic/bug606882-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug606882-1.js
+    --baseline-eager basic/bug606882-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug606882-2.js
+    --ion-eager --ion-offthread-compile=off basic/bug606882-2.js
+    --no-baseline --no-ion basic/bug606882-1.js
+    basic/bug606882-2.js
+    --baseline-eager basic/bug606882-2.js
+    --no-baseline --no-ion basic/bug606882-2.js
+    --baseline-eager basic/bug613399.js
+    --ion-eager --ion-offthread-compile=off basic/bug613399.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug613399.js
+    --no-baseline --no-ion basic/bug613399.js
+    basic/bug613399.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug627609.js
+    --ion-eager --ion-offthread-compile=off basic/bug627609.js
+    basic/bug627609.js
+    --baseline-eager basic/bug627609.js
+    --no-baseline --no-ion basic/bug627609.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug632964-regexp.js
+    --ion-eager --ion-offthread-compile=off basic/bug632964-regexp.js
+    basic/bug632964-regexp.js
+    --baseline-eager basic/bug632964-regexp.js
+    --no-baseline --no-ion basic/bug632964-regexp.js
+    basic/bug635417.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug635417.js
+    --baseline-eager basic/bug635417.js
+    --ion-eager --ion-offthread-compile=off basic/bug635417.js
+    --no-baseline --no-ion basic/bug635417.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug641235.js
+    basic/bug641235.js
+    --ion-eager --ion-offthread-compile=off basic/bug641235.js
+    --baseline-eager basic/bug641235.js
+    --no-baseline --no-ion basic/bug641235.js
+    basic/bug679986-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug679986-1.js
+    --ion-eager --ion-offthread-compile=off basic/bug679986-1.js
+    --baseline-eager basic/bug679986-1.js
+    --no-baseline --no-ion basic/bug679986-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug679986-2.js
+    --ion-eager --ion-offthread-compile=off basic/bug679986-2.js
+    basic/bug679986-2.js
+    --baseline-eager basic/bug679986-2.js
+    --no-baseline --no-ion basic/bug679986-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug683838.js
+    --baseline-eager basic/bug683838.js
+    basic/bug683838.js
+    --ion-eager --ion-offthread-compile=off basic/bug683838.js
+    --no-baseline --no-ion basic/bug683838.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug689916-regexp.js
+    basic/bug689916-regexp.js
+    --ion-eager --ion-offthread-compile=off basic/bug689916-regexp.js
+    --baseline-eager basic/bug689916-regexp.js
+    --no-baseline --no-ion basic/bug689916-regexp.js
+    basic/bug691797-regexp-1.js
+    --baseline-eager basic/bug691797-regexp-1.js
+    --ion-eager --ion-offthread-compile=off basic/bug691797-regexp-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug691797-regexp-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug691797-regexp-2.js
+    basic/bug691797-regexp-2.js
+    --no-baseline --no-ion basic/bug691797-regexp-1.js
+    --ion-eager --ion-offthread-compile=off basic/bug691797-regexp-2.js
+    --baseline-eager basic/bug691797-regexp-2.js
+    --no-baseline --no-ion basic/bug691797-regexp-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug728086.js
+    basic/bug728086.js
+    --baseline-eager basic/bug728086.js
+    --ion-eager --ion-offthread-compile=off basic/bug728086.js
+    --no-baseline --no-ion basic/bug728086.js
+    --ion-eager --ion-offthread-compile=off basic/bug754150.js
+    basic/bug754150.js
+    --baseline-eager basic/bug754150.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug754150.js
+    --ion-eager --ion-offthread-compile=off basic/bug820124-1.js
+    basic/bug820124-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug820124-1.js
+    --baseline-eager basic/bug820124-1.js
+    --no-baseline --no-ion basic/bug820124-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug820124-2.js
+    basic/bug820124-2.js
+    --ion-eager --ion-offthread-compile=off basic/bug820124-2.js
+    --baseline-eager basic/bug820124-2.js
+    --no-baseline --no-ion basic/bug820124-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug820124-3.js
+    basic/bug820124-3.js
+    --ion-eager --ion-offthread-compile=off basic/bug820124-3.js
+    --baseline-eager basic/bug820124-3.js
+    --ion-eager --ion-offthread-compile=off basic/bug820124-4.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug820124-4.js
+    --no-baseline --no-ion basic/bug820124-3.js
+    --no-baseline --no-ion basic/bug820124-4.js
+    --baseline-eager basic/bug820124-4.js
+    basic/bug820124-4.js
+    basic/bug824856.js
+    --ion-eager --ion-offthread-compile=off basic/bug824856.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug824856.js
+    --baseline-eager basic/bug824856.js
+    --no-baseline --no-ion basic/bug824856.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug831658.js
+    basic/bug831658.js
+    --ion-eager --ion-offthread-compile=off basic/bug831658.js
+    --no-baseline --no-ion basic/bug831658.js
+    --baseline-eager basic/bug831658.js
+    basic/bug832197-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug832197-1.js
+    --ion-eager --ion-offthread-compile=off basic/bug832197-1.js
+    --baseline-eager basic/bug832197-1.js
+    --no-baseline --no-ion basic/bug832197-1.js
+    basic/bug854124.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug854124.js
+    --baseline-eager basic/bug854124.js
+    --ion-eager --ion-offthread-compile=off basic/bug854124.js
+    --no-baseline --no-ion basic/bug854124.js
+    basic/bug976446.js
+    --ion-eager --ion-offthread-compile=off basic/bug976446.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug976446.js
+    --baseline-eager basic/bug976446.js
+    --no-baseline --no-ion basic/bug976446.js
+    basic/display-url-in-stack-trace.js
+    --ion-eager --ion-offthread-compile=off basic/display-url-in-stack-trace.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/display-url-in-stack-trace.js
+    --baseline-eager basic/display-url-in-stack-trace.js
+    --no-baseline --no-ion basic/display-url-in-stack-trace.js
+    basic/object-assign-unboxed.js
+    --ion-eager --ion-offthread-compile=off basic/object-assign-unboxed.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/object-assign-unboxed.js
+    --baseline-eager basic/object-assign-unboxed.js
+    --no-baseline --no-ion basic/object-assign-unboxed.js
+    --baseline-eager basic/offThreadCompileScript-02.js
+    basic/offThreadCompileScript-02.js
+    --ion-eager --ion-offthread-compile=off basic/offThreadCompileScript-02.js
+    --no-baseline --no-ion basic/offThreadCompileScript-02.js
+    basic/regexp-removed-dot-star.js
+    --ion-eager --ion-offthread-compile=off basic/regexp-removed-dot-star.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/regexp-removed-dot-star.js
+    --baseline-eager basic/regexp-removed-dot-star.js
+    --no-baseline --no-ion basic/regexp-removed-dot-star.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/regexp-reset-input.js
+    basic/regexp-reset-input.js
+    --ion-eager --ion-offthread-compile=off basic/regexp-reset-input.js
+    basic/regexp-sticky-undef-capture.js
+    --baseline-eager basic/regexp-reset-input.js
+    --no-baseline --no-ion basic/regexp-reset-input.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/regexp-sticky-undef-capture.js
+    --ion-eager --ion-offthread-compile=off basic/regexp-sticky-undef-capture.js
+    --baseline-eager basic/regexp-sticky-undef-capture.js
+    --ion-eager --ion-offthread-compile=off basic/regexp-test-direct-bug-694752.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/regexp-test-direct-bug-694752.js
+    --baseline-eager basic/regexp-test-direct-bug-694752.js
+    --no-baseline --no-ion basic/regexp-sticky-undef-capture.js
+    --no-baseline --no-ion basic/regexp-test-direct-bug-694752.js
+    basic/regexp-test-direct-bug-694752.js
+    --baseline-eager basic/regexp-undefined-match.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/regexp-undefined-match.js
+    basic/regexp-undefined-match.js
+    --ion-eager --ion-offthread-compile=off basic/regexp-undefined-match.js
+    --no-baseline --no-ion basic/regexp-undefined-match.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/shell-principals.js
+    --baseline-eager basic/shell-principals.js
+    basic/shell-principals.js
+    --ion-eager --ion-offthread-compile=off basic/shell-principals.js
+    --no-baseline --no-ion basic/shell-principals.js
+    basic/spread-call-rest.js
+    --ion-eager --ion-offthread-compile=off basic/spread-call-rest.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/spread-call-rest.js
+    --baseline-eager basic/spread-call-rest.js
+    --no-baseline --no-ion basic/spread-call-rest.js
+    basic/string-regexp-capture-groups.js
+    --ion-eager --ion-offthread-compile=off basic/string-regexp-capture-groups.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/string-regexp-capture-groups.js
+    --baseline-eager basic/string-regexp-capture-groups.js
+    --no-baseline --no-ion basic/string-regexp-capture-groups.js
+    basic/testBug673066.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testBug673066.js
+    --ion-eager --ion-offthread-compile=off basic/testBug673066.js
+    --baseline-eager basic/testBug673066.js
+    --no-baseline --no-ion basic/testBug673066.js
+    basic/testCrossCompartmentTransparency.js
+    --ion-eager --ion-offthread-compile=off basic/testCrossCompartmentTransparency.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testCrossCompartmentTransparency.js
+    --baseline-eager basic/testCrossCompartmentTransparency.js
+    --no-baseline --no-ion basic/testCrossCompartmentTransparency.js
+    basic/testInitSingletons.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testInitSingletons.js
+    --baseline-eager basic/testInitSingletons.js
+    --ion-eager --ion-offthread-compile=off basic/testInitSingletons.js
+    --no-baseline --no-ion basic/testInitSingletons.js
+    basic/testLirBufOOM.js
+    --ion-eager --ion-offthread-compile=off basic/testLirBufOOM.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testLirBufOOM.js
+    --baseline-eager basic/testLirBufOOM.js
+    --no-baseline --no-ion basic/testLirBufOOM.js
+    basic/testPaths.js
+    --ion-eager --ion-offthread-compile=off basic/testPaths.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testPaths.js
+    --baseline-eager basic/testPaths.js
+    --no-baseline --no-ion basic/testPaths.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testReplaceMap.js
+    basic/testReplaceMap.js
+    --ion-eager --ion-offthread-compile=off basic/testReplaceMap.js
+    --baseline-eager basic/testReplaceMap.js
+    basic/testReplaceWithLambda.js
+    --no-baseline --no-ion basic/testReplaceMap.js
+    --ion-eager --ion-offthread-compile=off basic/testReplaceWithLambda.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testReplaceWithLambda.js
+    --baseline-eager basic/testReplaceWithLambda.js
+    --no-baseline --no-ion basic/testReplaceWithLambda.js
+    --baseline-eager basic/testStaticsInRegExp.js
+    --ion-eager --ion-offthread-compile=off basic/testStaticsInRegExp.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testStaticsInRegExp.js
+    basic/testStaticsInRegExp.js
+    --no-baseline --no-ion basic/testStaticsInRegExp.js
+    basic/testStringBufferMallocAccounting.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/testStringBufferMallocAccounting.js
+    --ion-eager --ion-offthread-compile=off basic/testStringBufferMallocAccounting.js
+    --baseline-eager basic/testStringBufferMallocAccounting.js
+    --no-baseline --no-ion basic/testStringBufferMallocAccounting.js
+    basic/typed-array-copyWithin.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/typed-array-copyWithin.js
+    --ion-eager --ion-offthread-compile=off basic/typed-array-copyWithin.js
+    --baseline-eager basic/typed-array-copyWithin.js
+    --no-baseline --no-ion basic/typed-array-copyWithin.js
+    basic/unboxed-property-enumeration.js
+    --baseline-eager basic/unboxed-property-enumeration.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/unboxed-property-enumeration.js
+    --ion-eager --ion-offthread-compile=off basic/unboxed-property-enumeration.js
+    --no-baseline --no-ion basic/unboxed-property-enumeration.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads cacheir/bug1414849.js
+    cacheir/bug1414849.js
+    --ion-eager --ion-offthread-compile=off cacheir/bug1414849.js
+    --baseline-eager cacheir/bug1414849.js
+    --no-baseline --no-ion cacheir/bug1414849.js
+    collections/Array-of-2.js
+    --ion-eager --ion-offthread-compile=off collections/Array-of-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Array-of-2.js
+    --baseline-eager collections/Array-of-2.js
+    --no-baseline --no-ion collections/Array-of-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Array-of-3.js
+    collections/Array-of-3.js
+    --ion-eager --ion-offthread-compile=off collections/Array-of-3.js
+    --baseline-eager collections/Array-of-3.js
+    --no-baseline --no-ion collections/Array-of-3.js
+    collections/Array-of-generic-1.js
+    --ion-eager --ion-offthread-compile=off collections/Array-of-generic-1.js
+    --baseline-eager collections/Array-of-generic-1.js
+    --no-baseline --no-ion collections/Array-of-generic-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Array-of-generic-1.js
+    collections/Array-of-nonconfigurable-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Array-of-nonconfigurable-2.js
+    --ion-eager --ion-offthread-compile=off collections/Array-of-nonconfigurable-2.js
+    --baseline-eager collections/Array-of-nonconfigurable-2.js
+    --no-baseline --no-ion collections/Array-of-nonconfigurable-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Array-of-ordering.js
+    --ion-eager --ion-offthread-compile=off collections/Array-of-ordering.js
+    collections/Array-of-ordering.js
+    --baseline-eager collections/Array-of-ordering.js
+    --no-baseline --no-ion collections/Array-of-ordering.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-clear-iterators-1.js
+    --ion-eager --ion-offthread-compile=off collections/Map-clear-iterators-1.js
+    collections/Map-clear-iterators-1.js
+    --baseline-eager collections/Map-clear-iterators-1.js
+    --no-baseline --no-ion collections/Map-clear-iterators-1.js
+    collections/Map-clear-iterators-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-clear-iterators-2.js
+    --baseline-eager collections/Map-clear-iterators-2.js
+    --ion-eager --ion-offthread-compile=off collections/Map-clear-iterators-2.js
+    --no-baseline --no-ion collections/Map-clear-iterators-2.js
+    collections/Map-forEach.js
+    --ion-eager --ion-offthread-compile=off collections/Map-forEach.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-forEach.js
+    --baseline-eager collections/Map-forEach.js
+    --no-baseline --no-ion collections/Map-forEach.js
+    --baseline-eager collections/Map-iterator-add-2.js
+    --ion-eager --ion-offthread-compile=off collections/Map-iterator-add-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-iterator-add-2.js
+    collections/Map-iterator-add-2.js
+    --no-baseline --no-ion collections/Map-iterator-add-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-iterator-pairs-2.js
+    collections/Map-iterator-pairs-2.js
+    --baseline-eager collections/Map-iterator-pairs-2.js
+    --ion-eager --ion-offthread-compile=off collections/Map-iterator-pairs-2.js
+    --no-baseline --no-ion collections/Map-iterator-pairs-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-iterator-pairs-3.js
+    collections/Map-iterator-pairs-3.js
+    --baseline-eager collections/Map-iterator-pairs-3.js
+    --ion-eager --ion-offthread-compile=off collections/Map-iterator-pairs-3.js
+    --no-baseline --no-ion collections/Map-iterator-pairs-3.js
+    --baseline-eager collections/Map-iterator-remove-3.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-iterator-remove-3.js
+    collections/Map-iterator-remove-3.js
+    --ion-eager --ion-offthread-compile=off collections/Map-iterator-remove-3.js
+    --no-baseline --no-ion collections/Map-iterator-remove-3.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-iterator-remove-4.js
+    --baseline-eager collections/Map-iterator-remove-4.js
+    --ion-eager --ion-offthread-compile=off collections/Map-iterator-remove-4.js
+    collections/Map-iterator-remove-4.js
+    --no-baseline --no-ion collections/Map-iterator-remove-4.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-iterator-remove-6.js
+    collections/Map-iterator-remove-6.js
+    --ion-eager --ion-offthread-compile=off collections/Map-iterator-remove-6.js
+    --baseline-eager collections/Map-iterator-remove-6.js
+    --no-baseline --no-ion collections/Map-iterator-remove-6.js
+    --ion-eager --ion-offthread-compile=off collections/Map-iterators-3.js
+    collections/Map-iterators-3.js
+    --baseline-eager collections/Map-iterators-3.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-iterators-3.js
+    --no-baseline --no-ion collections/Map-iterators-3.js
+    --ion-eager --ion-offthread-compile=off collections/Map-values-2.js
+    collections/Map-values-2.js
+    --baseline-eager collections/Map-values-2.js
+    --no-baseline --no-ion collections/Map-values-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Map-values-2.js
+    collections/Set-clear-iterators-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-clear-iterators-1.js
+    --ion-eager --ion-offthread-compile=off collections/Set-clear-iterators-1.js
+    --baseline-eager collections/Set-clear-iterators-1.js
+    --no-baseline --no-ion collections/Set-clear-iterators-1.js
+    collections/Set-clear-iterators-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-clear-iterators-2.js
+    --baseline-eager collections/Set-clear-iterators-2.js
+    --ion-eager --ion-offthread-compile=off collections/Set-clear-iterators-2.js
+    --no-baseline --no-ion collections/Set-clear-iterators-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-clear-iterators-3.js
+    collections/Set-clear-iterators-3.js
+    --ion-eager --ion-offthread-compile=off collections/Set-clear-iterators-3.js
+    --baseline-eager collections/Set-clear-iterators-3.js
+    --ion-eager --ion-offthread-compile=off collections/Set-forEach.js
+    --baseline-eager collections/Set-forEach.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-forEach.js
+    --no-baseline --no-ion collections/Set-forEach.js
+    collections/Set-iterator-add-2.js
+    --ion-eager --ion-offthread-compile=off collections/Set-iterator-add-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-iterator-add-2.js
+    --baseline-eager collections/Set-iterator-add-2.js
+    --no-baseline --no-ion collections/Set-iterator-add-2.js
+    --no-baseline --no-ion collections/Set-clear-iterators-3.js
+    collections/Set-forEach.js
+    --ion-eager --ion-offthread-compile=off collections/Set-iterator-proxies-2.js
+    --baseline-eager collections/Set-iterator-proxies-2.js
+    collections/Set-iterator-proxies-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-iterator-proxies-2.js
+    --no-baseline --no-ion collections/Set-iterator-proxies-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-iterator-remove-3.js
+    --ion-eager --ion-offthread-compile=off collections/Set-iterator-remove-3.js
+    --baseline-eager collections/Set-iterator-remove-3.js
+    collections/Set-iterator-remove-3.js
+    --no-baseline --no-ion collections/Set-iterator-remove-3.js
+    collections/Set-iterator-remove-4.js
+    --ion-eager --ion-offthread-compile=off collections/Set-iterator-remove-4.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-iterator-remove-4.js
+    --baseline-eager collections/Set-iterator-remove-4.js
+    --no-baseline --no-ion collections/Set-iterator-remove-4.js
+    collections/Set-iterator-remove-6.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-iterator-remove-6.js
+    --baseline-eager collections/Set-iterator-remove-6.js
+    --ion-eager --ion-offthread-compile=off collections/Set-iterator-remove-6.js
+    --ion-eager --ion-offthread-compile=off collections/Set-values-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/Set-values-2.js
+    --no-baseline --no-ion collections/Set-iterator-remove-6.js
+    collections/Set-values-2.js
+    --no-baseline --no-ion collections/Set-values-2.js
+    --baseline-eager collections/Set-values-2.js
+    --ion-eager --ion-offthread-compile=off collections/iterator-proto-surfaces.js
+    collections/iterator-proto-surfaces.js
+    --baseline-eager collections/iterator-proto-surfaces.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads collections/iterator-proto-surfaces.js
+    --no-baseline --no-ion collections/iterator-proto-surfaces.js
+    --ion-eager --ion-offthread-compile=off debug/Debugger-debuggees-26.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Debugger-debuggees-26.js
+    --ion-eager --ion-offthread-compile=off debug/Environment-getVariable-13.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Environment-getVariable-13.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-eval-20.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-eval-20.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-eval-22.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-eval-22.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-eval-23.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-eval-23.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-implementation-01.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-implementation-01.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-implementation-02.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-implementation-02.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-newTargetEval-01.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-newTargetEval-01.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-newTargetEval-02.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-newTargetEval-02.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-newTargetOverflow-01.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-newTargetOverflow-01.js
+    debug/Frame-onPop-star-generators-01.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-onPop-star-generators-01.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-onPop-star-generators-01.js
+    --baseline-eager debug/Frame-onPop-star-generators-01.js
+    --no-baseline --no-ion debug/Frame-onPop-star-generators-01.js
+    debug/Frame-onPop-star-generators-02.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-onPop-star-generators-02.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-onPop-star-generators-02.js
+    --baseline-eager debug/Frame-onPop-star-generators-02.js
+    --no-baseline --no-ion debug/Frame-onPop-star-generators-02.js
+    debug/Frame-onPop-star-generators-03.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-onPop-star-generators-03.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-onPop-star-generators-03.js
+    --baseline-eager debug/Frame-onPop-star-generators-03.js
+    --no-baseline --no-ion debug/Frame-onPop-star-generators-03.js
+    debug/Frame-onStep-06.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-onStep-06.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-onStep-06.js
+    --baseline-eager debug/Frame-onStep-06.js
+    --no-baseline --no-ion debug/Frame-onStep-06.js
+    debug/Frame-onStep-08.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-onStep-08.js
+    --baseline-eager debug/Frame-onStep-08.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-onStep-08.js
+    --no-baseline --no-ion debug/Frame-onStep-08.js
+    debug/Frame-onStep-09.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-onStep-09.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-onStep-09.js
+    --no-baseline --no-ion debug/Frame-onStep-09.js
+    --baseline-eager debug/Frame-onStep-09.js
+    debug/Frame-onStep-iterators.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-onStep-iterators.js
+    --baseline-eager debug/Frame-onStep-iterators.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-onStep-iterators.js
+    --no-baseline --no-ion debug/Frame-onStep-iterators.js
+    debug/Frame-this-03.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-this-03.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-this-03.js
+    --baseline-eager debug/Frame-this-03.js
+    --no-baseline --no-ion debug/Frame-this-03.js
+    debug/Frame-this-04.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-this-04.js
+    --baseline-eager debug/Frame-this-04.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-this-04.js
+    --no-baseline --no-ion debug/Frame-this-04.js
+    debug/Script-getLineOffsets-04.js
+    --ion-eager --ion-offthread-compile=off debug/Script-getLineOffsets-04.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Script-getLineOffsets-04.js
+    --baseline-eager debug/Script-getLineOffsets-04.js
+    --no-baseline --no-ion debug/Script-getLineOffsets-04.js
+    --ion-eager --ion-offthread-compile=off debug/Script-getLineOffsets-05.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Script-getLineOffsets-05.js
+    debug/Script-getLineOffsets-05.js
+    --baseline-eager debug/Script-getLineOffsets-05.js
+    --no-baseline --no-ion debug/Script-getLineOffsets-05.js
+    debug/Script-getLineOffsets-06.js
+    --ion-eager --ion-offthread-compile=off debug/Script-getLineOffsets-06.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Script-getLineOffsets-06.js
+    --no-baseline --no-ion debug/Script-getLineOffsets-06.js
+    --baseline-eager debug/Script-getLineOffsets-06.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Source-introductionScript-02.js
+    debug/Source-introductionScript-02.js
+    --baseline-eager debug/Source-introductionScript-02.js
+    --ion-eager --ion-offthread-compile=off debug/Source-introductionScript-02.js
+    --no-baseline --no-ion debug/Source-introductionScript-02.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Source-url-01.js
+    --baseline-eager debug/Source-url-01.js
+    debug/Source-url-01.js
+    --ion-eager --ion-offthread-compile=off debug/Source-url-01.js
+    --no-baseline --no-ion debug/Source-url-01.js
+    debug/Source-url-02.js
+    --ion-eager --ion-offthread-compile=off debug/Source-url-02.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Source-url-02.js
+    --no-baseline --no-ion debug/Source-url-02.js
+    --baseline-eager debug/Source-url-02.js
+    --ion-eager --ion-offthread-compile=off debug/optimized-out-01.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/optimized-out-01.js
+    --ion-eager --ion-offthread-compile=off debug/optimized-out-03.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/optimized-out-03.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/resumption-06.js
+    --baseline-eager debug/resumption-06.js
+    --ion-eager --ion-offthread-compile=off debug/resumption-06.js
+    debug/resumption-06.js
+    --no-baseline --no-ion debug/resumption-06.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/array-iterator-changing.js
+    for-of/array-iterator-changing.js
+    --ion-eager --ion-offthread-compile=off for-of/array-iterator-changing.js
+    --baseline-eager for-of/array-iterator-changing.js
+    --no-baseline --no-ion for-of/array-iterator-changing.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/array-iterator-generic.js
+    --baseline-eager for-of/array-iterator-generic.js
+    for-of/array-iterator-generic.js
+    --ion-eager --ion-offthread-compile=off for-of/array-iterator-generic.js
+    --no-baseline --no-ion for-of/array-iterator-generic.js
+    --baseline-eager for-of/array-iterator-growing-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/array-iterator-growing-1.js
+    --ion-eager --ion-offthread-compile=off for-of/array-iterator-growing-1.js
+    for-of/array-iterator-growing-1.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/array-iterator-keys-entries.js
+    --no-baseline --no-ion for-of/array-iterator-growing-1.js
+    --ion-eager --ion-offthread-compile=off for-of/array-iterator-keys-entries.js
+    for-of/array-iterator-keys-entries.js
+    --no-baseline --no-ion for-of/array-iterator-keys-entries.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/array-iterator-proxy.js
+    for-of/array-iterator-proxy.js
+    --ion-eager --ion-offthread-compile=off for-of/array-iterator-proxy.js
+    --baseline-eager for-of/array-iterator-proxy.js
+    --no-baseline --no-ion for-of/array-iterator-proxy.js
+    for-of/array-iterator-shrinking.js
+    --ion-eager --ion-offthread-compile=off for-of/array-iterator-shrinking.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/array-iterator-shrinking.js
+    --no-baseline --no-ion for-of/array-iterator-shrinking.js
+    --baseline-eager for-of/array-iterator-shrinking.js
+    --baseline-eager for-of/array-iterator-keys-entries.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/decompiler.js
+    for-of/decompiler.js
+    --baseline-eager for-of/decompiler.js
+    --ion-eager --ion-offthread-compile=off for-of/decompiler.js
+    --no-baseline --no-ion for-of/decompiler.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/manual-advance.js
+    --baseline-eager for-of/manual-advance.js
+    for-of/manual-advance.js
+    --ion-eager --ion-offthread-compile=off for-of/manual-advance.js
+    --no-baseline --no-ion for-of/manual-advance.js
+    for-of/next-3.js
+    --baseline-eager for-of/next-3.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/next-3.js
+    --ion-eager --ion-offthread-compile=off for-of/next-3.js
+    --no-baseline --no-ion for-of/next-3.js
+    for-of/string-iterator-generic.js
+    --baseline-eager for-of/string-iterator-generic.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/string-iterator-generic.js
+    --ion-eager --ion-offthread-compile=off for-of/string-iterator-generic.js
+    --ion-eager --ion-offthread-compile=off for-of/string-iterator-surfaces.js
+    for-of/string-iterator-surfaces.js
+    --no-baseline --no-ion for-of/string-iterator-generic.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads for-of/string-iterator-surfaces.js
+    --baseline-eager for-of/string-iterator-surfaces.js
+    --no-baseline --no-ion for-of/string-iterator-surfaces.js
+    gc/bug-886630.js
+    --ion-eager --ion-offthread-compile=off gc/bug-886630.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads gc/bug-886630.js
+    --baseline-eager gc/bug-886630.js
+    --no-baseline --no-ion gc/bug-886630.js
+    generators/return-break-continue.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads generators/return-break-continue.js
+    --ion-eager --ion-offthread-compile=off generators/return-break-continue.js
+    --baseline-eager generators/return-break-continue.js
+    --no-baseline --no-ion generators/return-break-continue.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads generators/return.js
+    --ion-eager --ion-offthread-compile=off generators/return.js
+    generators/return.js
+    --baseline-eager generators/return.js
+    --no-baseline --no-ion generators/return.js
+    generators/throw-closes.js
+    --ion-eager --ion-offthread-compile=off generators/throw-closes.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads generators/throw-closes.js
+    --ion-eager --ion-offthread-compile=off generators/wrappers.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads generators/wrappers.js
+    --baseline-eager generators/wrappers.js
+    --no-baseline --no-ion generators/wrappers.js
+    --baseline-eager generators/throw-closes.js
+    generators/wrappers.js
+    --no-baseline --no-ion generators/throw-closes.js
+    ion/bug1132128.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug1132128.js
+    --ion-eager --ion-offthread-compile=off ion/bug1132128.js
+    --baseline-eager ion/bug1132128.js
+    --no-baseline --no-ion ion/bug1132128.js
+    ion/bug1165905.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug1165905.js
+    --ion-eager --ion-offthread-compile=off ion/bug1165905.js
+    --baseline-eager ion/bug1165905.js
+    --no-baseline --no-ion ion/bug1165905.js
+    --ion-eager --ion-offthread-compile=off ion/bug1379936.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug1379936.js
+    ion/bug1379936.js
+    --baseline-eager ion/bug1379936.js
+    --no-baseline --no-ion ion/bug1379936.js
+    ion/bug729798.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug729798.js
+    --ion-eager --ion-offthread-compile=off ion/bug729798.js
+    --baseline-eager ion/bug729798.js
+    --no-baseline --no-ion ion/bug729798.js
+    ion/bug756781.js
+    --ion-eager --ion-offthread-compile=off ion/bug756781.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug756781.js
+    --baseline-eager ion/bug756781.js
+    --no-baseline --no-ion ion/bug756781.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug761854.js
+    ion/bug761854.js
+    --ion-eager --ion-offthread-compile=off ion/bug761854.js
+    --baseline-eager ion/bug761854.js
+    --no-baseline --no-ion ion/bug761854.js
+    ion/bug877936-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug877936-2.js
+    --ion-eager --ion-offthread-compile=off ion/bug877936-2.js
+    --baseline-eager ion/bug877936-2.js
+    --no-baseline --no-ion ion/bug877936-2.js
+    ion/bug964229-2.js
+    --ion-eager --ion-offthread-compile=off ion/bug964229-2.js
+    --baseline-eager ion/bug964229-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug964229-2.js
+    --no-baseline --no-ion ion/bug964229-2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/bug965712.js
+    --baseline-eager ion/bug965712.js
+    ion/bug965712.js
+    --ion-eager --ion-offthread-compile=off ion/bug965712.js
+    --no-baseline --no-ion ion/bug965712.js
+    ion/dce-with-rinstructions.js
+    --ion-eager --ion-offthread-compile=off ion/dce-with-rinstructions.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/dce-with-rinstructions.js
+    --baseline-eager ion/dce-with-rinstructions.js
+    --no-baseline --no-ion ion/dce-with-rinstructions.js
+    --ion-eager --ion-offthread-compile=off ion/regexp-clone.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads ion/regexp-clone.js
+    --baseline-eager ion/regexp-clone.js
+    ion/regexp-clone.js
+    --no-baseline --no-ion ion/regexp-clone.js
+    jaeger/bug659448.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads jaeger/bug659448.js
+    --ion-eager --ion-offthread-compile=off jaeger/bug659448.js
+    --baseline-eager jaeger/bug659448.js
+    --no-baseline --no-ion jaeger/bug659448.js
+    jaeger/recompile/bug659766.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads jaeger/recompile/bug659766.js
+    --ion-eager --ion-offthread-compile=off jaeger/recompile/bug659766.js
+    --baseline-eager jaeger/recompile/bug659766.js
+    --no-baseline --no-ion jaeger/recompile/bug659766.js
+    latin1/regexp.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads latin1/regexp.js
+    --ion-eager --ion-offthread-compile=off latin1/regexp.js
+    --baseline-eager latin1/regexp.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads latin1/replace.js
+    --ion-eager --ion-offthread-compile=off latin1/replace.js
+    --no-baseline --no-ion latin1/regexp.js
+    latin1/replace.js
+    --baseline-eager latin1/replace.js
+    --no-baseline --no-ion latin1/replace.js
+    modules/module-evaluation.js
+    --ion-eager --ion-offthread-compile=off modules/module-evaluation.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads modules/module-evaluation.js
+    --baseline-eager modules/module-evaluation.js
+    --no-baseline --no-ion modules/module-evaluation.js
+    parser/bug-1263355-49.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads parser/bug-1263355-49.js
+    --ion-eager --ion-offthread-compile=off parser/bug-1263355-49.js
+    --baseline-eager parser/bug-1263355-49.js
+    --no-baseline --no-ion parser/bug-1263355-49.js
+    proxy/testDirectProxyDefineProperty7.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads proxy/testDirectProxyDefineProperty7.js
+    --ion-eager --ion-offthread-compile=off proxy/testDirectProxyDefineProperty7.js
+    --baseline-eager proxy/testDirectProxyDefineProperty7.js
+    --no-baseline --no-ion proxy/testDirectProxyDefineProperty7.js
+    proxy/testDirectProxyGetOwnPropertyDescriptor11.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads proxy/testDirectProxyGetOwnPropertyDescriptor11.js
+    --ion-eager --ion-offthread-compile=off proxy/testDirectProxyGetOwnPropertyDescriptor11.js
+    --baseline-eager proxy/testDirectProxyGetOwnPropertyDescriptor11.js
+    --no-baseline --no-ion proxy/testDirectProxyGetOwnPropertyDescriptor11.js
+    proxy/testDirectProxyKeys10.js
+    --ion-eager --ion-offthread-compile=off proxy/testDirectProxyKeys10.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads proxy/testDirectProxyKeys10.js
+    --baseline-eager proxy/testDirectProxyKeys10.js
+    --no-baseline --no-ion proxy/testDirectProxyKeys10.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads proxy/testDirectProxyRevoke.js
+    --baseline-eager proxy/testDirectProxyRevoke.js
+    proxy/testDirectProxyRevoke.js
+    --ion-eager --ion-offthread-compile=off proxy/testDirectProxyRevoke.js
+    --no-baseline --no-ion proxy/testDirectProxyRevoke.js
+    proxy/testDirectProxySetArray2.js
+    --baseline-eager proxy/testDirectProxySetArray2.js
+    --ion-eager --ion-offthread-compile=off proxy/testDirectProxySetArray2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads proxy/testDirectProxySetArray2.js
+    --no-baseline --no-ion proxy/testDirectProxySetArray2.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads proxy/testDirectProxySetFailure.js
+    proxy/testDirectProxySetFailure.js
+    --ion-eager --ion-offthread-compile=off proxy/testDirectProxySetFailure.js
+    --baseline-eager proxy/testDirectProxySetFailure.js
+    --no-baseline --no-ion proxy/testDirectProxySetFailure.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads regexp/huge-01.js
+    --baseline-eager regexp/huge-01.js
+    --ion-eager --ion-offthread-compile=off regexp/huge-01.js
+    regexp/huge-01.js
+    --no-baseline --no-ion regexp/huge-01.js
+    saved-stacks/async-principals.js
+    --ion-eager --ion-offthread-compile=off saved-stacks/async-principals.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads saved-stacks/async-principals.js
+    --baseline-eager saved-stacks/async-principals.js
+    --no-baseline --no-ion saved-stacks/async-principals.js
+    saved-stacks/principals-02.js
+    --ion-eager --ion-offthread-compile=off saved-stacks/principals-02.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads saved-stacks/principals-02.js
+    --baseline-eager saved-stacks/principals-02.js
+    --no-baseline --no-ion saved-stacks/principals-02.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads self-hosting/invoke-self-hosted-with-primitive-this.js
+    --ion-eager --ion-offthread-compile=off self-hosting/invoke-self-hosted-with-primitive-this.js
+    --baseline-eager self-hosting/invoke-self-hosted-with-primitive-this.js
+    self-hosting/invoke-self-hosted-with-primitive-this.js
+    --no-baseline --no-ion self-hosting/invoke-self-hosted-with-primitive-this.js
+    self-test/assertDeepEq.js
+    --baseline-eager self-test/assertDeepEq.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads self-test/assertDeepEq.js
+    --ion-eager --ion-offthread-compile=off self-test/assertDeepEq.js
+    --no-baseline --no-ion self-test/assertDeepEq.js
+    --baseline-eager self-test/readlineBuf.js
+    self-test/readlineBuf.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads self-test/readlineBuf.js
+    --ion-eager --ion-offthread-compile=off self-test/readlineBuf.js
+    --no-baseline --no-ion self-test/readlineBuf.js
+    sunspider/check-crypto-aes.js
+    --ion-eager --ion-offthread-compile=off sunspider/check-crypto-aes.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads sunspider/check-crypto-aes.js
+    --no-baseline --no-ion sunspider/check-crypto-aes.js
+    --baseline-eager sunspider/check-crypto-aes.js
+    sunspider/check-date-format-xparb.js
+    --baseline-eager sunspider/check-date-format-xparb.js
+    --ion-eager --ion-offthread-compile=off sunspider/check-date-format-xparb.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads sunspider/check-date-format-xparb.js
+    --no-baseline --no-ion sunspider/check-date-format-xparb.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads sunspider/check-regexp-dna.js
+    --ion-eager --ion-offthread-compile=off sunspider/check-regexp-dna.js
+    sunspider/check-regexp-dna.js
+    --baseline-eager sunspider/check-regexp-dna.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads sunspider/check-string-tagcloud.js
+    --ion-eager --ion-offthread-compile=off sunspider/check-string-tagcloud.js
+    --no-baseline --no-ion sunspider/check-regexp-dna.js
+    sunspider/check-string-tagcloud.js
+    --baseline-eager sunspider/check-string-tagcloud.js
+    --no-baseline --no-ion sunspider/check-string-tagcloud.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads sunspider/check-string-unpack-code.js
+    sunspider/check-string-unpack-code.js
+    --ion-eager --ion-offthread-compile=off sunspider/check-string-unpack-code.js
+    --baseline-eager sunspider/check-string-unpack-code.js
+    --no-baseline --no-ion sunspider/check-string-unpack-code.js
+    v8-v5/check-regexp.js
+    --ion-eager --ion-offthread-compile=off v8-v5/check-regexp.js
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads v8-v5/check-regexp.js
+    --baseline-eager v8-v5/check-regexp.js
+    --no-baseline --no-ion v8-v5/check-regexp.js
+TIMEOUTS:
+    --ion-eager --ion-offthread-compile=off --non-writable-jitcode --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads debug/Frame-eval-19.js
+    --ion-eager --ion-offthread-compile=off debug/Frame-eval-19.js
+Result summary:
+Passed: 27929
+Failed: 829
+{"action": "suite_end", "pid": 32372, "source": "jittests", "thread": "main", "time": 1603875899.376477}
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-60.9.0/obj/js/src'

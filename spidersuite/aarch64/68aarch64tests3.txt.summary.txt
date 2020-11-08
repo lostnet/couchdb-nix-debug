@@ -1,0 +1,15 @@
+FAILURES:
+TIMEOUTS:
+    basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/bug1355573.js
+    --baseline-eager basic/bug1355573.js
+    --ion-eager --ion-offthread-compile=off --more-compartments basic/max-string-length.js
+    --ion-eager --ion-offthread-compile=off --ion-check-range-analysis --ion-extra-checks --no-sse3 --no-threads basic/max-string-length.js
+    --baseline-eager basic/max-string-length.js
+    basic/max-string-length.js
+    --baseline-eager wasm/atomicity.js
+Result summary:
+Passed: 31032
+Failed: 9
+make[1]: Leaving directory '/home/eviltwin/build/spidermonkey/firefox-68.10.0/obj/js/src'
